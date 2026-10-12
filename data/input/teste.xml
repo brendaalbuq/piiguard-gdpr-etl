@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+  <cliente>
+    <nome>Ana Silva</nome>
+    <email>ana.silva@exemplo.pt</email>
+    <telefone>912345678</telefone>
+  </cliente>
+  <cliente>
+    <nome>Rui Costa</nome>
+    <email>rui.costa@exemplo.pt</email>
+    <telefone>936543210</telefone>
+  </cliente>
+</clientes>
