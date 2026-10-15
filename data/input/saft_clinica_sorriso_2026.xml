@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuditFile>
+  <Header>
+    <CompanyID>509876543</CompanyID>
+    <TaxRegistrationNumber>509876543</TaxRegistrationNumber>
+    <CompanyName>Clínica Dentária Sorriso do Minho, Lda</CompanyName>
+    <FiscalYear>2026</FiscalYear>
+    <StartDate>2026-01-01</StartDate>
+    <EndDate>2026-09-30</EndDate>
+    <CurrencyCode>EUR</CurrencyCode>
+  </Header>
+  <MasterFiles>
+    <Customer>
+      <CustomerID>CLI001</CustomerID>
+      <CustomerTaxID>387973095</CustomerTaxID>
+      <CompanyName>Pedro Fernandes Almeida</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida Central, 65</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-215</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>911417075</Telephone>
+      <Email>pedro.almeida77@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI002</CustomerID>
+      <CustomerTaxID>297880934</CustomerTaxID>
+      <CompanyName>André Pereira Lopes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Dom Pedro V, 218</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-493</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>920819672</Telephone>
+      <Email>andre.lopes51@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI003</CustomerID>
+      <CustomerTaxID>240029780</CustomerTaxID>
+      <CompanyName>Miguel Ribeiro Teixeira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida Central, 143</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-827</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>965347787</Telephone>
+      <Email>miguel.teixeira56@hotmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI004</CustomerID>
+      <CustomerTaxID>162701071</CustomerTaxID>
+      <CompanyName>Hugo Mendes Alves</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Largo do Paço, 172</AddressDetail>
+        <City>Braga</City>
+        <PostalCode>4700-979</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>919331908</Telephone>
+      <Email>hugo.alves48@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI005</CustomerID>
+      <CustomerTaxID>222948663</CustomerTaxID>
+      <CompanyName>Rui Alves Pinto</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua da Boavista, 166</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-052</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>928360161</Telephone>
+      <Email>rui.pinto38@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI006</CustomerID>
+      <CustomerTaxID>357931866</CustomerTaxID>
+      <CompanyName>Catarina Carvalho Costa</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua do Souto, 34</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-495</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>913208073</Telephone>
+      <Email>catarina.costa27@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI007</CustomerID>
+      <CustomerTaxID>247258776</CustomerTaxID>
+      <CompanyName>Marta Sousa Costa</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida da Liberdade, 225</AddressDetail>
+        <City>Guimarães</City>
+        <PostalCode>4800-976</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>918841330</Telephone>
+      <Email>marta.costa60@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI008</CustomerID>
+      <CustomerTaxID>221052186</CustomerTaxID>
+      <CompanyName>Catarina Jesus Moreira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida da Liberdade, 4</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-262</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>934914524</Telephone>
+      <Email>catarina.moreira34@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI009</CustomerID>
+      <CustomerTaxID>245060456</CustomerTaxID>
+      <CompanyName>Diogo Marques Lopes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua da Boavista, 51</AddressDetail>
+        <City>Póvoa de Lanhoso</City>
+        <PostalCode>4830-979</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>931465908</Telephone>
+      <Email>diogo.lopes65@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI010</CustomerID>
+      <CustomerTaxID>332280888</CustomerTaxID>
+      <CompanyName>Catarina Oliveira Gonçalves</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida Central, 68</AddressDetail>
+        <City>Esposende</City>
+        <PostalCode>4740-490</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>964230048</Telephone>
+      <Email>catarina.goncalves31@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI011</CustomerID>
+      <CustomerTaxID>337038260</CustomerTaxID>
+      <CompanyName>Carla Teixeira Almeida</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Nova de Santa Cruz, 141</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-470</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>933845355</Telephone>
+      <Email>carla.almeida85@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI012</CustomerID>
+      <CustomerTaxID>284210838</CustomerTaxID>
+      <CompanyName>Joana Correia Lopes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua dos Chãos, 27</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-988</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>939066882</Telephone>
+      <Email>joana.lopes11@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI013</CustomerID>
+      <CustomerTaxID>215438299</CustomerTaxID>
+      <CompanyName>Carla Ribeiro Oliveira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Travessa do Carmo, 78</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-268</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>922157116</Telephone>
+      <Email>carla.oliveira66@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI014</CustomerID>
+      <CustomerTaxID>173556965</CustomerTaxID>
+      <CompanyName>Vasco Mendes Moreira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Avenida da Liberdade, 82</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-855</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>922792645</Telephone>
+      <Email>vasco.moreira41@hotmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI015</CustomerID>
+      <CustomerTaxID>388365501</CustomerTaxID>
+      <CompanyName>Ana Ribeiro Correia</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Travessa do Carmo, 107</AddressDetail>
+        <City>Guimarães</City>
+        <PostalCode>4800-592</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>962048425</Telephone>
+      <Email>ana.correia13@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI016</CustomerID>
+      <CustomerTaxID>183801253</CustomerTaxID>
+      <CompanyName>Ana Nunes Rodrigues</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua dos Chãos, 175</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-427</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>927392419</Telephone>
+      <Email>ana.rodrigues36@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI017</CustomerID>
+      <CustomerTaxID>254072070</CustomerTaxID>
+      <CompanyName>Bruno Fernandes Fernandes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Dom Pedro V, 149</AddressDetail>
+        <City>Guimarães</City>
+        <PostalCode>4800-311</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>934735486</Telephone>
+      <Email>bruno.fernandes62@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI018</CustomerID>
+      <CustomerTaxID>221824880</CustomerTaxID>
+      <CompanyName>Maria Almeida Almeida</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua dos Chãos, 220</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-439</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>961930733</Telephone>
+      <Email>maria.almeida41@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI019</CustomerID>
+      <CustomerTaxID>322900441</CustomerTaxID>
+      <CompanyName>Marta Ribeiro Carvalho</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua do Souto, 193</AddressDetail>
+        <City>Póvoa de Lanhoso</City>
+        <PostalCode>4830-191</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>922485272</Telephone>
+      <Email>marta.carvalho20@hotmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI020</CustomerID>
+      <CustomerTaxID>200159453</CustomerTaxID>
+      <CompanyName>Rita Moreira Mendes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua de São Vicente, 62</AddressDetail>
+        <City>Esposende</City>
+        <PostalCode>4740-853</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>912831663</Telephone>
+      <Email>rita.mendes19@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI021</CustomerID>
+      <CustomerTaxID>182445607</CustomerTaxID>
+      <CompanyName>Filipa Costa Pereira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua de São Vicente, 144</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-812</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>968745721</Telephone>
+      <Email>filipa.pereira25@outlook.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI022</CustomerID>
+      <CustomerTaxID>240190181</CustomerTaxID>
+      <CompanyName>Maria Marques Marques</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua do Souto, 40</AddressDetail>
+        <City>Guimarães</City>
+        <PostalCode>4800-553</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>969169797</Telephone>
+      <Email>maria.marques68@gmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI023</CustomerID>
+      <CustomerTaxID>373638566</CustomerTaxID>
+      <CompanyName>Ricardo Fernandes Correia</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Nova de Santa Cruz, 152</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-602</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>917392731</Telephone>
+      <Email>ricardo.correia31@sapo.pt</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI024</CustomerID>
+      <CustomerTaxID>319539180</CustomerTaxID>
+      <CompanyName>Sofia Nunes Lopes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Dom Pedro V, 14</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-250</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>927611660</Telephone>
+      <Email>sofia.lopes46@hotmail.com</Email>
+    </Customer>
+    <Customer>
+      <CustomerID>CLI025</CustomerID>
+      <CustomerTaxID>141214309</CustomerTaxID>
+      <CompanyName>Nuno Correia Marques</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua dos Chãos, 150</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-560</PostalCode>
+        <Country>PT</Country>
+      </BillingAddress>
+      <Telephone>939074182</Telephone>
+      <Email>nuno.marques25@outlook.pt</Email>
+    </Customer>
+  </MasterFiles>
+  <SourceDocuments>
+    <SalesInvoices>
+      <Invoice>
+        <InvoiceNo>FT A2026/1</InvoiceNo>
+        <InvoiceDate>2026-06-06</InvoiceDate>
+        <CustomerID>CLI025</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>145.00</NetTotal>
+          <TaxPayable>33.35</TaxPayable>
+          <GrossTotal>178.35</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/2</InvoiceNo>
+        <InvoiceDate>2026-01-15</InvoiceDate>
+        <CustomerID>CLI020</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>670.00</NetTotal>
+          <TaxPayable>154.10</TaxPayable>
+          <GrossTotal>824.10</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/3</InvoiceNo>
+        <InvoiceDate>2026-04-20</InvoiceDate>
+        <CustomerID>CLI023</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>90.00</NetTotal>
+          <TaxPayable>20.70</TaxPayable>
+          <GrossTotal>110.70</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/4</InvoiceNo>
+        <InvoiceDate>2026-07-11</InvoiceDate>
+        <CustomerID>CLI014</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>380.00</NetTotal>
+          <TaxPayable>87.40</TaxPayable>
+          <GrossTotal>467.40</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/5</InvoiceNo>
+        <InvoiceDate>2026-09-23</InvoiceDate>
+        <CustomerID>CLI017</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>250.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>840.00</NetTotal>
+          <TaxPayable>193.20</TaxPayable>
+          <GrossTotal>1033.20</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/6</InvoiceNo>
+        <InvoiceDate>2026-05-26</InvoiceDate>
+        <CustomerID>CLI003</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>260.00</NetTotal>
+          <TaxPayable>59.80</TaxPayable>
+          <GrossTotal>319.80</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/7</InvoiceNo>
+        <InvoiceDate>2026-08-02</InvoiceDate>
+        <CustomerID>CLI005</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>270.00</NetTotal>
+          <TaxPayable>62.10</TaxPayable>
+          <GrossTotal>332.10</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/8</InvoiceNo>
+        <InvoiceDate>2026-02-18</InvoiceDate>
+        <CustomerID>CLI013</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>175.00</NetTotal>
+          <TaxPayable>40.25</TaxPayable>
+          <GrossTotal>215.25</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/9</InvoiceNo>
+        <InvoiceDate>2026-08-09</InvoiceDate>
+        <CustomerID>CLI002</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>60.00</NetTotal>
+          <TaxPayable>13.80</TaxPayable>
+          <GrossTotal>73.80</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/10</InvoiceNo>
+        <InvoiceDate>2026-04-19</InvoiceDate>
+        <CustomerID>CLI008</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>45.00</NetTotal>
+          <TaxPayable>10.35</TaxPayable>
+          <GrossTotal>55.35</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/11</InvoiceNo>
+        <InvoiceDate>2026-06-30</InvoiceDate>
+        <CustomerID>CLI009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>250.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>420.00</NetTotal>
+          <TaxPayable>96.60</TaxPayable>
+          <GrossTotal>516.60</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/12</InvoiceNo>
+        <InvoiceDate>2026-02-05</InvoiceDate>
+        <CustomerID>CLI018</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>230.00</NetTotal>
+          <TaxPayable>52.90</TaxPayable>
+          <GrossTotal>282.90</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/13</InvoiceNo>
+        <InvoiceDate>2026-07-23</InvoiceDate>
+        <CustomerID>CLI001</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>375.00</NetTotal>
+          <TaxPayable>86.25</TaxPayable>
+          <GrossTotal>461.25</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/14</InvoiceNo>
+        <InvoiceDate>2026-06-21</InvoiceDate>
+        <CustomerID>CLI013</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>255.00</NetTotal>
+          <TaxPayable>58.65</TaxPayable>
+          <GrossTotal>313.65</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/15</InvoiceNo>
+        <InvoiceDate>2026-03-20</InvoiceDate>
+        <CustomerID>CLI013</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>45.00</NetTotal>
+          <TaxPayable>10.35</TaxPayable>
+          <GrossTotal>55.35</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/16</InvoiceNo>
+        <InvoiceDate>2026-02-25</InvoiceDate>
+        <CustomerID>CLI019</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>105.00</NetTotal>
+          <TaxPayable>24.15</TaxPayable>
+          <GrossTotal>129.15</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/17</InvoiceNo>
+        <InvoiceDate>2026-06-26</InvoiceDate>
+        <CustomerID>CLI021</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>90.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>90.00</NetTotal>
+          <TaxPayable>20.70</TaxPayable>
+          <GrossTotal>110.70</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/18</InvoiceNo>
+        <InvoiceDate>2026-05-02</InvoiceDate>
+        <CustomerID>CLI017</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>680.00</NetTotal>
+          <TaxPayable>156.40</TaxPayable>
+          <GrossTotal>836.40</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/19</InvoiceNo>
+        <InvoiceDate>2026-07-21</InvoiceDate>
+        <CustomerID>CLI021</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>85.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>630.00</NetTotal>
+          <TaxPayable>144.90</TaxPayable>
+          <GrossTotal>774.90</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/20</InvoiceNo>
+        <InvoiceDate>2026-03-23</InvoiceDate>
+        <CustomerID>CLI010</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>500.00</NetTotal>
+          <TaxPayable>115.00</TaxPayable>
+          <GrossTotal>615.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/21</InvoiceNo>
+        <InvoiceDate>2026-05-15</InvoiceDate>
+        <CustomerID>CLI022</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>500.00</NetTotal>
+          <TaxPayable>115.00</TaxPayable>
+          <GrossTotal>615.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/22</InvoiceNo>
+        <InvoiceDate>2026-09-12</InvoiceDate>
+        <CustomerID>CLI011</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>170.00</NetTotal>
+          <TaxPayable>39.10</TaxPayable>
+          <GrossTotal>209.10</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/23</InvoiceNo>
+        <InvoiceDate>2026-07-21</InvoiceDate>
+        <CustomerID>CLI016</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>500.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>1120.00</NetTotal>
+          <TaxPayable>257.60</TaxPayable>
+          <GrossTotal>1377.60</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/24</InvoiceNo>
+        <InvoiceDate>2026-09-17</InvoiceDate>
+        <CustomerID>CLI009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>225.00</NetTotal>
+          <TaxPayable>51.75</TaxPayable>
+          <GrossTotal>276.75</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/25</InvoiceNo>
+        <InvoiceDate>2026-02-08</InvoiceDate>
+        <CustomerID>CLI025</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>250.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>590.00</NetTotal>
+          <TaxPayable>135.70</TaxPayable>
+          <GrossTotal>725.70</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/26</InvoiceNo>
+        <InvoiceDate>2026-05-24</InvoiceDate>
+        <CustomerID>CLI009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>60.00</NetTotal>
+          <TaxPayable>13.80</TaxPayable>
+          <GrossTotal>73.80</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/27</InvoiceNo>
+        <InvoiceDate>2026-06-01</InvoiceDate>
+        <CustomerID>CLI019</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>60.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>290.00</NetTotal>
+          <TaxPayable>66.70</TaxPayable>
+          <GrossTotal>356.70</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/28</InvoiceNo>
+        <InvoiceDate>2026-09-11</InvoiceDate>
+        <CustomerID>CLI004</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REST01</ProductCode>
+          <ProductDescription>Restauração dentária</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>85.00</UnitPrice>
+          <CreditAmount>170.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>170.00</NetTotal>
+          <TaxPayable>39.10</TaxPayable>
+          <GrossTotal>209.10</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/29</InvoiceNo>
+        <InvoiceDate>2026-03-23</InvoiceDate>
+        <CustomerID>CLI021</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>BRAN01</ProductCode>
+          <ProductDescription>Branqueamento</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>250.00</UnitPrice>
+          <CreditAmount>250.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>250.00</NetTotal>
+          <TaxPayable>57.50</TaxPayable>
+          <GrossTotal>307.50</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT A2026/30</InvoiceNo>
+        <InvoiceDate>2026-02-02</InvoiceDate>
+        <CustomerID>CLI001</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>DEST01</ProductCode>
+          <ProductDescription>Destartarização</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>60.00</UnitPrice>
+          <CreditAmount>120.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>CONS01</ProductCode>
+          <ProductDescription>Consulta de medicina dentária</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>45.00</UnitPrice>
+          <CreditAmount>45.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>285.00</NetTotal>
+          <TaxPayable>65.55</TaxPayable>
+          <GrossTotal>350.55</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+    </SalesInvoices>
+  </SourceDocuments>
+</AuditFile>

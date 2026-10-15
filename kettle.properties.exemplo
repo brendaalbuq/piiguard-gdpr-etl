@@ -1,0 +1,15 @@
+# Copiar estas linhas para C:\Users\<utilizador>\.kettle\kettle.properties
+# (no Spoon: Edit > Edit the kettle.properties file) e preencher os valores.
+# Este ficheiro de exemplo vai para o GitHub; o verdadeiro NÃO.
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=piiguard
+DB_USER=postgres
+DB_PASS=
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_USER=
+SMTP_PASS=
+MQTT_BROKER=localhost:1883
+# Pasta do repositório no teu PC (ex.: C:/Users/Brenda/piiguard-gdpr-etl), com barras /
+PROJ_DIR=
