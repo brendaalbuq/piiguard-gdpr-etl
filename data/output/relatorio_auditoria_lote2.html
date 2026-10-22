@@ -1,0 +1,123 @@
+<html lang="pt">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <title>PiiGuard - Relatório de auditoria RGPD</title><style>
+          body { font-family: Segoe UI, Arial, sans-serif; margin: 32px; color: #1f2933; background: #f7f9fb; }
+          h1 { color: #0e3a5a; margin-bottom: 4px; }
+          h2 { color: #0e3a5a; border-bottom: 2px solid #c9e8fb; padding-bottom: 4px; margin-top: 32px; }
+          p.sub { color: #52606d; margin-top: 0; }
+          table { border-collapse: collapse; width: 100%; background: #fff; }
+          th, td { border: 1px solid #d9e2ec; padding: 6px 10px; text-align: left; }
+          th { background: #0e3a5a; color: #fff; }
+          tr:nth-child(even) td { background: #f0f4f8; }
+          .nota { font-size: 13px; color: #52606d; }
+        </style></head>
+   <body>
+      <h1>PiiGuard - Relatório de auditoria RGPD</h1>
+      <p class="sub">Gerado automaticamente pelo Pentaho (XML + XSLT). Nenhum dado pessoal aparece em claro neste relatório.</p>
+      <h2>Lotes processados e reconciliação</h2>
+      <table>
+         <tr>
+            <th>Circuito</th>
+            <th>Item</th>
+            <th>Para onde foram os registos</th>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Lote 1 - SUCESSO</td>
+            <td>entrada 110 = válidos 69 + quarentena 31 + duplicados 10</td>
+         </tr>
+         <tr>
+            <td>C2</td>
+            <td>Lote 2 - SUCESSO</td>
+            <td>entrada 2 = válidos 1 + quarentena 1 + duplicados 0</td>
+         </tr>
+      </table>
+      <h2>Registos em quarentena (nada foi apagado)</h2>
+      <table>
+         <tr>
+            <th>Circuito</th>
+            <th>Item</th>
+            <th>Registos</th>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Campo obrigatório vazio (CAMPO_OBRIGATORIO_NULO)</td>
+            <td>6</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Código postal não respeita 0000-000 (CP_INVALIDO)</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Data impossível ou em formato desconhecido (DATA_INVALIDA)</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Email não respeita o formato nome@dominio.ext (EMAIL_INVALIDO)</td>
+            <td>12</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>NIF não tem 9 dígitos depois de limpo (NIF_INVALIDO)</td>
+            <td>7</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Registo repetido (mesma empresa + mesmo NIF) (DUPLICADO)</td>
+            <td>10</td>
+         </tr>
+         <tr>
+            <td>C1</td>
+            <td>Telefone não tem 9 dígitos (com ou sem +351) (TELEFONE_INVALIDO)</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td>C2</td>
+            <td>Ficheiro XML não valida contra o XSD (XSD_INVALIDO)</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td>C3</td>
+            <td>Campo obrigatório vazio (CAMPO_OBRIGATORIO_NULO)</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td>C3</td>
+            <td>Evento MQTT já recebido anteriormente (EVENTO_REPETIDO)</td>
+            <td>2</td>
+         </tr>
+      </table>
+      <h2>Constatações da auditoria por empresa</h2>
+      <table>
+         <tr>
+            <th>Empresa</th>
+            <th>Item</th>
+            <th>Ocorrências</th>
+         </tr>
+         <tr>
+            <td>Clínica Dentária Sorriso do Minho, Lda</td>
+            <td>CLIENTE_SEM_CRM - gravidade MEDIA</td>
+            <td>9</td>
+         </tr>
+      </table>
+      <h2>Faturas exportadas (pseudonimizadas)</h2>
+      <table>
+         <tr>
+            <th>Empresa</th>
+            <th>Item</th>
+            <th>Faturas</th>
+         </tr>
+         <tr>
+            <td>Clínica Dentária Sorriso do Minho, Lda</td>
+            <td>Faturas exportadas (anonimizadas)</td>
+            <td>30</td>
+         </tr>
+      </table>
+      <p class="nota">Detalhe completo nas tabelas controlo.lote, quarentena.registo e auditoria.constatacao da base de dados piiguard.</p>
+   </body>
+</html>

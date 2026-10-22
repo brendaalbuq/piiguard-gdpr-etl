@@ -1,46 +1,46 @@
 customer_id,name,tax_id,mail,phone,zip_code,birth_date,created_at,notes
-B0022,Catarina Teixeira Oliveira,391805355,CATARINA.OLIVEIRA99@SAPO.PT,911919652,4700-060,1976-03-31,2019-05-06T00:00:00,Contactar pelo 911919652 depois das 18h
-B0023,Inês Moreira Nunes,18753070,ines@gmail,911537910,4830-098,1955-07-06,2019-09-02T00:00:00,
-B0028,Inês Rodrigues Alves,227 556 038,ines.alves70@hotmail.com,(+351)939602372,4740747,1996-08-20,2022-09-16T00:00:00,Prefere marcações de manhã
-B0016,Filipa Fernandes Oliveira,151976040,filipa.oliveira4@sapo.pt,924381721,475041,1964-10-06,2022-11-04T00:00:00,Pagamento por transferência IBAN PT50 0035 0651 10352478753 05
-B0037,André Santos Martins,157 554 082,andre.martins17@outlook.pt,919 507 392,4830,1984-10-05,2021-12-19T00:00:00,Cliente frequente
-B0008,marta pereira oliveira,275370739,,00351918090862,4800-457,1971-05-24,2025-07-08T00:00:00,Pediu fatura com NIF 275370739
-B0021,Luís Jesus Sousa,,luis.sousa81@sapo.pt,930983943,4800-653,30.03.1981,2025-03-13T00:00:00,Veio por recomendação
-B0013,Diogo Alves Ferreira,PT164891986,diogo.ferreira98@hotmail.com,930993797,474029,01.04.2003,2024-06-03T00:00:00,Prefere marcações de manhã
-B0039,tiago lopes costa,244651221,tiago.costa11@outlook.pt,925790817,4740-230,1954-03-18,2020-01-15T00:00:00,Enviar newsletter
-B0027,Miguel Lopes Oliveira,,miguel.oliveira44@outlook.pt,967650526,4830-337,1986-12-19,2024-08-14T00:00:00,Prefere marcações de manhã
-B0026,  João   Alves Marques ,151438153,joao.marques35(at)sapo.pt,964103407,4740-343,31/02/1967,2025-08-22T00:00:00,
-B0035,JOÃO SILVA MENDES,284619574,,(+351)924813278,4800-334,1975-03-04,2023-08-14T00:00:00,"Mora na Rua Dom Pedro V, 141, perto da farmácia"
-B0025,  Mariana   Lopes Moreira ,31794O439,  mariana.moreira75@sapo.pt ,921-077-257,4830-331,1993-09-11,2025-06-07T00:00:00,
-B0034,  André   Carvalho Teixeira ,157897940,andre.teixeira18@sapo.pt,964026718,4700-768,1956-10-02,2020-05-13T00:00:00,Pediu fatura com NIF 157897940
-B0003,André Ferreira Sousa,14528O718,  andre.sousa29@gmail.com ,922744043,4740-843,1967-07-13,2020-07-20T00:00:00,Veio por recomendação
-B0022,Catarina Teixeira Oliveira,391805355,CATARINA.OLIVEIRA99@SAPO.PT,911919652,4700-060,1976-03-31,2019-05-06T00:00:00,Contactar pelo 911919652 depois das 18h
-B9000,DIOGO ALVES FERREIRA,164 891 986,diogo.ferreira98@hotmail.com,930993797,474029,01.04.2003,2024-06-03T00:00:00,Prefere marcações de manhã
-B0009,Carla Oliveira Ferreira,352605812,carla.ferreira52@outlook.pt,+351 938 938 329,4740-610,1980-05-13,2024-06-06T00:00:00,
-B0001,Joana Fernandes Rodrigues,371774837,joana@sapo,964032019,4700088,1985-02-23,2021-02-06T00:00:00,Veio por recomendação
-B0007,Teresa Rodrigues Mendes,203613872,TERESA.MENDES70@GMAIL.COM,920375268,4760-007,1964-11-17,2025-09-09T00:00:00,Cliente frequente
-B0040,Hugo Silva Mendes,,HUGO.MENDES95@HOTMAIL.COM,915-434-425,4760-255,1952-08-20,2020-09-04T00:00:00,Veio por recomendação
-B0002,  Carla   Correia Sousa ,16992O388,carla sousa12@gmail.com,922717451,4800-748,1992-08-13,2025-07-31T00:00:00,
-B0018,Pedro Almeida Ribeiro,260.012.122,,+351 916 661 205,4700-343,1973-07-29,2022-07-02T00:00:00,
-B0019,RITA LOPES FERREIRA,29138O146,rita@hotmail,+351 962 032 588,4750,1988-03-03,2022-12-26T00:00:00,
-B9001,  ANDRÉ   CARVALHO TEIXEIRA ,157 897 940,andre.teixeira18@sapo.pt,964026718,4700-768,1956-10-02,2020-05-13T00:00:00,Pediu fatura com NIF 157897940
-B0030,Catarina Moreira Carvalho,36205O483,catarina.carvalho44@sapo.pt,938642238,4800-397,2001-03-08,2023-04-14T00:00:00,Cliente frequente
-B0038,Paulo Pereira Pinto,298509342,paulo@gmail,923040541,4740542,1987-06-06,2025-02-28T00:00:00,Prefere marcações de manhã
-B0029,Joana Jesus Alves,328539597,joana.alves83@hotmail.com,00351922269310,4760-629,1983-05-11,2022-10-13T00:00:00,"Toma anticoagulantes, ver ficha clínica"
-B0005,Luís Martins Gonçalves,105286591,luis.goncalves23(at)outlook.pt,936-055-183,4830-052,2004-12-02,2019-08-31T00:00:00,Alergia à penicilina - avisar médico
-B0017,João Santos Gonçalves,27488781,joao.goncalves63@outlook.pt,(+351)911081023,4700-136,1966-05-08,2025-11-07T00:00:00,"Toma anticoagulantes, ver ficha clínica"
-B0036,RUI ALMEIDA CORREIA,206983417,rui.correia28@hotmail.com,913271927,4830-167,2003-02-15,2019-05-10T00:00:00,Cliente frequente
-B0012,Rui Lopes Nunes,325556512,rui.nunes24@outlook.pt,964726001,4740-142,1981-07-05,2020-01-03T00:00:00,Cliente frequente
-B0006,Gonçalo Santos Almeida,PT343059061,goncalo@hotmail,919-227-553,4760,1996-11-04,2020-12-02T00:00:00,Prefere marcações de manhã
-B0004,Joana Nunes Rodrigues,,joana.rodrigues90@sapo.pt,927125204,4760-650,1959-01-31,2022-04-02T00:00:00,
-B0024,Sofia Gonçalves Oliveira,190026448,sofia.oliveira25@gmail.com,918-186-953,4760-403,1971-12-31,2019-12-27T00:00:00,Enviar newsletter
-B0013,Diogo Alves Ferreira,PT164891986,diogo.ferreira98@hotmail.com,930993797,474029,01.04.2003,2024-06-03T00:00:00,Prefere marcações de manhã
-B0020,Pedro Jesus Martins,110 835 794,pedro.martins61@outlook.pt,961953095,4700-370,29.07.1970,2022-07-23T00:00:00,Alergia à penicilina - avisar médico
-B0031,Vasco Nunes Ferreira,,vasco.ferreira94@sapo.pt,910641735,4750-579,18/05/1982,2021-09-13T00:00:00,
-B0032,  Diogo   Alves Ferreira ,PT324900759,diogo.ferreira2@sapo.pt,914-293-092,4900-914,1959-05-21,2019-04-15T00:00:00,
-B0015,Rui Alves Fernandes,PT391622625,rui.fernandes86@outlook.pt,939217078,4700-911,1972-09-03,2025-09-14T00:00:00,
-B0033,Catarina Gomes Jesus,PT184531454,catarina@hotmail,920254412,4740086,1990-08-29,2024-09-18T00:00:00,Prefere marcações de manhã
-B0011,Pedro Fernandes Sousa,243663048,PEDRO.SOUSA28@HOTMAIL.COM,936181183,4740-216,1992-09-18,2021-02-07T00:00:00,Pediu fatura com NIF 243663048
-B0026,  João   Alves Marques ,151438153,joao.marques35(at)sapo.pt,964103407,4740-343,31/02/1967,2025-08-22T00:00:00,
-B0014,Ana Alves Ribeiro,PT143974408,ana ribeiro45@sapo.pt,925219607,4750-446,31/02/1986,2025-10-15T00:00:00,Enviar newsletter
-B0010,Pedro Gomes Carvalho,297837680,pedro.carvalho39@sapo.pt,917760342,4740 195,1993-04-29,2023-04-26T00:00:00,
+B0009,Maria Marques Santos,387303758,maria.santos12@hotmail.com,926805786,4900-053,1967-05-20,2023-07-25T00:00:00,Alergia à penicilina - avisar médico
+B0038,  Pedro   Rodrigues Oliveira ,196347696,pedro.oliveira26@gmail.com,960401486,4740-760,1996-11-06,2022-09-01T00:00:00,
+B0004,Pedro Mendes Jesus,337873666,pedro jesus16@sapo.pt,964714732,4750-229,1-9-78,2020-05-03T00:00:00,
+B0010,  Beatriz   Silva Almeida ,177326441,beatriz.almeida69@outlook.pt,932743680,4700-273,2001-01-21,2019-07-16T00:00:00,Alergia à penicilina - avisar médico
+B9000,FILIPA JESUS CORREIA,102 848 521,filipa.correia10@hotmail.com,938025797,4740-547,1985-11-06,2022-04-27T00:00:00,Pagamento por transferência IBAN PT50 0035 0651 78557566055 05
+B0018,Joana Pereira Nunes,281035245,joana.nunes10@gmail.com,968753005,4830-044,1989-01-25,2020-12-27T00:00:00,Cliente frequente
+B0001,Filipa Jesus Correia,102848521,filipa.correia10@hotmail.com,938025797,4740-547,1985-11-06,2022-04-27T00:00:00,Pagamento por transferência IBAN PT50 0035 0651 78557566055 05
+B0014,Rita Sousa Nunes,120266270,rita.nunes6@gmail.com,963-676-669,4740-492,1961-07-20,2023-08-29T00:00:00,
+B0007,Nuno Ferreira Teixeira,214655571,nuno.teixeira3@gmail.com,922 348 883,4760-049,1969-12-17,2019-07-28T00:00:00,
+B0013,Pedro Ribeiro Ferreira,282054049,pedro.ferreira28@gmail.com,915321687,4700-021,1995-05-30,2021-08-20T00:00:00,"Toma anticoagulantes, ver ficha clínica"
+B0028,  Marta   Teixeira Gonçalves ,31794O439,marta.goncalves74@sapo.pt,921077257,4830-331,1987-05-15,2024-06-17T00:00:00,"Toma anticoagulantes, ver ficha clínica"
+B0037,Catarina Mendes Correia,399197958,catarina.correia60@sapo.pt,910054659,4700-906,07.06.1970,2019-07-02T00:00:00,Prefere marcações de manhã
+B0012,Joana Martins Alves,276034236,joana.alves86@gmail.com,965966026,4740-688,1995-03-29,2025-07-07T00:00:00,"Mora na Rua dos Chãos, 64, perto da farmácia"
+B0017,HELENA ALMEIDA MENDES,328452220,helena.mendes95@sapo.pt,+351 930 435 197,4740-432,1976-09-07,2022-10-16T00:00:00,Cliente frequente
+B0008,Gonçalo Fernandes Pinto,175535485,goncalo.pinto15@hotmail.com,924474451,4830-615,1950-04-08,2023-10-06T00:00:00,Prefere marcações de manhã
+B0017,HELENA ALMEIDA MENDES,328452220,helena.mendes95@sapo.pt,+351 930 435 197,4740-432,1976-09-07,2022-10-16T00:00:00,Cliente frequente
+B0030,Ricardo Moreira Correia,216167655,ricardo.correia27@gmail.com,915265170,4740-228,1961-06-23,2020-03-24T00:00:00,"Toma anticoagulantes, ver ficha clínica"
+B9001,RITA SOUSA NUNES,120 266 270,rita.nunes6@gmail.com,963-676-669,4740-492,1961-07-20,2023-08-29T00:00:00,
+B0024,Pedro Gomes Ribeiro,,pedro.ribeiro45@sapo.pt,930983943,4800-653,16.06.1975,2022-12-06T00:00:00,Veio por recomendação
+B0040,Luís Ferreira Carvalho,329239112,,921709057,4830-869,03.05.1980,2019-01-12T00:00:00,
+B0033,Vasco Santos Gonçalves,364223863,vasco.goncalves76(at)sapo.pt,916258966,4800-938,1975-03-16,2025-03-05T00:00:00,Alergia à penicilina - avisar médico
+B0031,leonor moreira rodrigues,137296134,leonor.rodrigues54@gmail.com,917857104,4900-172,1972-09-28,2025-08-04T00:00:00,Veio por recomendação
+B0036,Luís Alves Carvalho,151578974,luis.carvalho96@gmail.com,938640267,4830-115,1951-04-25,2019-11-05T00:00:00,Cliente frequente
+B0016,Sofia Sousa Silva,176.386.530,sofia.silva13@outlook.pt,931 904 708,4750-810,1981-05-25,2020-11-15T00:00:00,Contactar pelo 931904708 depois das 18h
+B0025,Catarina Teixeira Oliveira,391805355,catarina.oliveira99@sapo.pt,00351911919652,4700-060,1976-03-31,2019-05-06T00:00:00,Contactar pelo 911919652 depois das 18h
+B0022,RUI TEIXEIRA OLIVEIRA,192851004,rui.oliveira96@hotmail.com,929492442,4740 125,1958-10-12,2023-03-17T00:00:00,Veio por recomendação
+B0039,Tiago Alves Santos,303271922,tiago.santos35@gmail.com,962432989,4740-402,31/02/1994,2021-07-22T00:00:00,
+B0012,Joana Martins Alves,276034236,joana.alves86@gmail.com,965966026,4740-688,1995-03-29,2025-07-07T00:00:00,"Mora na Rua dos Chãos, 64, perto da farmácia"
+B0026,Inês Moreira Nunes,18753070,ines@gmail,911537910,4830-098,1955-07-06,2019-09-02T00:00:00,Veio por recomendação
+B0003,João Rodrigues Nunes,307778541,joao.nunes5@sapo.pt,937910169,4800-915,31/02/1990,2022-10-27T00:00:00,Veio por recomendação
+B0032,Joana Fernandes Rodrigues,32269310,joana.rodrigues66@hotmail.com,931-179-027,4760-497,07.11.1979,2025-07-18T00:00:00,"Mora na Rua da Boavista, 236, perto da farmácia"
+B0006,Paulo Teixeira Alves,,paulo.alves89@hotmail.com,926958359,4700-942,1962-03-23,2023-01-28T00:00:00,
+B0014,Rita Sousa Nunes,120266270,rita.nunes6@gmail.com,963-676-669,4740-492,1961-07-20,2023-08-29T00:00:00,
+B0027,Leonor Santos Jesus,313139008,leonor.jesus92@hotmail.com,926440818,4800-433,12-9-62,2025-05-17T00:00:00,Veio por recomendação
+B0019,Luís Ferreira Santos,123209307,luis.santos65@gmail.com,965477123,4830-508,1956-08-16,2019-02-22T00:00:00,Veio por recomendação
+B0035,andré nunes sousa,219646783,  andre.sousa50@gmail.com ,+351 921 845 314,4800-329,1975-07-02,2024-12-15T00:00:00,Alergia à penicilina - avisar médico
+B0011,NUNO RIBEIRO MOREIRA,39383299,nuno.moreira66@sapo.pt,917709131,4830-459,1957-11-17,2024-11-19T00:00:00,Cliente frequente
+B0023,Catarina Nunes Pinto,109552113,catarina.pinto79@sapo.pt,(+351)911687285,4760-269,1-9-85,2020-05-13T00:00:00,Enviar newsletter
+B0015,Diogo Carvalho Rodrigues,296224596,diogo.rodrigues89@outlook.pt,910471848,4900-030,27-3-92,2025-05-07T00:00:00,Veio por recomendação
+B0029,PEDRO SOUSA MENDES,210340754,pedro.mendes44@outlook.pt,912280856,4750-643,1996-01-02,2020-02-26T00:00:00,
+B0034,HUGO SOUSA PEREIRA,285268180,hugo.pereira73@outlook.pt,(+351)912064197,4740-089,1971-06-25,2022-12-12T00:00:00,Contactar pelo 912064197 depois das 18h
+B0005,Sofia Silva Sousa,182431436,sofia.sousa54@sapo.pt,925918381,4750-652,20.07.1953,2025-05-29T00:00:00,
+B0020,rui rodrigues ferreira,243376006,rui.ferreira71@gmail.com,912120666,4740-117,1960-04-23,2024-12-07T00:00:00,Veio por recomendação
+B0021,Ana Alves Moreira,276126521,  ana.moreira33@outlook.pt ,939138114,4830-735,1954-04-17,2020-01-02T00:00:00,Prefere marcações de manhã
+B0002,Leonor Sousa Teixeira,387853162,leonor.teixeira63@gmail.com,924487177,4760-266,18/02/1967,2023-08-11T00:00:00,Prefere marcações de manhã

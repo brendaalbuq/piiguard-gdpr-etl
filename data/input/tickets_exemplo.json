@@ -1,6 +1,24 @@
 [
   {
     "ticket_id": "TK-0001",
+    "empresa": "A",
+    "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
+    "canal": "email",
+    "assunto": "Faturação",
+    "cliente_nome": "Bruno Correia Rodrigues",
+    "mensagem": "Gostaria de saber se têm o modelo em stock."
+  },
+  {
+    "ticket_id": "TK-0002",
+    "empresa": "A",
+    "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
+    "canal": "formulario_web",
+    "assunto": "Faturação",
+    "cliente_nome": "Mariana Gonçalves Santos",
+    "mensagem": "Por favor liguem-me para o 936-500-185, ninguém atende na loja."
+  },
+  {
+    "ticket_id": "TK-0003",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "formulario_web",
@@ -9,7 +27,7 @@
     "mensagem": "Enviem a resposta para mariana.pereira48@outlook.pt, obrigado."
   },
   {
-    "ticket_id": "TK-0002",
+    "ticket_id": "TK-0004",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -18,7 +36,7 @@
     "mensagem": "NIF 121960137 / tel 930457656 / email paulo.oliveira27@hotmail.com - por favor atualizem a minha ficha."
   },
   {
-    "ticket_id": "TK-0003",
+    "ticket_id": "TK-0005",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -27,7 +45,7 @@
     "mensagem": "Bom dia, o meu NIF é 217 507 573 e a fatura veio sem ele."
   },
   {
-    "ticket_id": "TK-0004",
+    "ticket_id": "TK-0006",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -36,7 +54,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0005",
+    "ticket_id": "TK-0007",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "chat",
@@ -45,7 +63,7 @@
     "mensagem": "Qual é o horário de funcionamento no feriado?"
   },
   {
-    "ticket_id": "TK-0006",
+    "ticket_id": "TK-0008",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -54,7 +72,7 @@
     "mensagem": "Gostaria de saber se têm o modelo em stock."
   },
   {
-    "ticket_id": "TK-0007",
+    "ticket_id": "TK-0009",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -63,7 +81,7 @@
     "mensagem": "A aplicação não abre desde a última atualização."
   },
   {
-    "ticket_id": "TK-0008",
+    "ticket_id": "TK-0010",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -72,7 +90,7 @@
     "mensagem": "Qual é o horário de funcionamento no feriado?"
   },
   {
-    "ticket_id": "TK-0009",
+    "ticket_id": "TK-0011",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "email",
@@ -81,7 +99,7 @@
     "mensagem": "Excelente atendimento, obrigado!"
   },
   {
-    "ticket_id": "TK-0010",
+    "ticket_id": "TK-0012",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -90,7 +108,7 @@
     "mensagem": "Moro na Rua da Boavista, 193, 4740-508 Esposende e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0011",
+    "ticket_id": "TK-0013",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "chat",
@@ -99,7 +117,7 @@
     "mensagem": "Bom dia, o meu NIF é 308 958 780 e a fatura veio sem ele."
   },
   {
-    "ticket_id": "TK-0012",
+    "ticket_id": "TK-0014",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -108,7 +126,7 @@
     "mensagem": "Bom dia, o meu NIF é 166 975 796 e a fatura veio sem ele."
   },
   {
-    "ticket_id": "TK-0013",
+    "ticket_id": "TK-0015",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "app",
@@ -117,7 +135,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0014",
+    "ticket_id": "TK-0016",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "email",
@@ -126,7 +144,7 @@
     "mensagem": "Excelente atendimento, obrigado!"
   },
   {
-    "ticket_id": "TK-0015",
+    "ticket_id": "TK-0017",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -135,7 +153,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0016",
+    "ticket_id": "TK-0018",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -144,7 +162,7 @@
     "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05."
   },
   {
-    "ticket_id": "TK-0017",
+    "ticket_id": "TK-0019",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -153,7 +171,7 @@
     "mensagem": "O meu cartão de cidadão é 21858091 8 ZZ8 e preciso de alterar os dados."
   },
   {
-    "ticket_id": "TK-0018",
+    "ticket_id": "TK-0020",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "email",
@@ -162,7 +180,7 @@
     "mensagem": "Gostaria de saber se têm o modelo em stock."
   },
   {
-    "ticket_id": "TK-0019",
+    "ticket_id": "TK-0021",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -171,7 +189,7 @@
     "mensagem": "Moro na Rua da Boavista, 71, 4740-742 Esposende e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0020",
+    "ticket_id": "TK-0022",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "chat",
@@ -180,7 +198,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0021",
+    "ticket_id": "TK-0023",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -189,7 +207,7 @@
     "mensagem": "Por favor liguem-me para o 964-595-061, ninguém atende na loja."
   },
   {
-    "ticket_id": "TK-0022",
+    "ticket_id": "TK-0024",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "email",
@@ -198,7 +216,7 @@
     "mensagem": "O meu cartão de cidadão é 10443206 4 ZZ4 e preciso de alterar os dados."
   },
   {
-    "ticket_id": "TK-0023",
+    "ticket_id": "TK-0025",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "formulario_web",
@@ -207,7 +225,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0024",
+    "ticket_id": "TK-0026",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "app",
@@ -216,7 +234,7 @@
     "mensagem": "O meu cartão de cidadão é 36928523 1 ZZ6 e preciso de alterar os dados."
   },
   {
-    "ticket_id": "TK-0025",
+    "ticket_id": "TK-0027",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -225,7 +243,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0026",
+    "ticket_id": "TK-0028",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -234,7 +252,7 @@
     "mensagem": "NIF 330102575 / tel 939885287 / email vasco.sousa19@outlook.pt - por favor atualizem a minha ficha."
   },
   {
-    "ticket_id": "TK-0027",
+    "ticket_id": "TK-0029",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "formulario_web",
@@ -243,7 +261,7 @@
     "mensagem": "NIF 392539594 / tel 967338661 / email teresa.rodrigues92@hotmail.com - por favor atualizem a minha ficha."
   },
   {
-    "ticket_id": "TK-0028",
+    "ticket_id": "TK-0030",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -252,7 +270,7 @@
     "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 22503270873 05."
   },
   {
-    "ticket_id": "TK-0029",
+    "ticket_id": "TK-0031",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -261,7 +279,7 @@
     "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 49575566598 05."
   },
   {
-    "ticket_id": "TK-0030",
+    "ticket_id": "TK-0032",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "email",
@@ -270,7 +288,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0031",
+    "ticket_id": "TK-0033",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "chat",
@@ -279,7 +297,7 @@
     "mensagem": "Gostaria de saber se têm o modelo em stock."
   },
   {
-    "ticket_id": "TK-0032",
+    "ticket_id": "TK-0034",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "email",
@@ -288,7 +306,7 @@
     "mensagem": "Moro na Avenida da Liberdade, 38, 4900-963 Viana do Castelo e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0033",
+    "ticket_id": "TK-0035",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "email",
@@ -297,7 +315,7 @@
     "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 83154623746 05."
   },
   {
-    "ticket_id": "TK-0034",
+    "ticket_id": "TK-0036",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -306,7 +324,7 @@
     "mensagem": "Moro na Rua do Souto, 78, 4900-494 Viana do Castelo e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0035",
+    "ticket_id": "TK-0037",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -315,7 +333,7 @@
     "mensagem": "Por favor liguem-me para o +351 928 525 849, ninguém atende na loja."
   },
   {
-    "ticket_id": "TK-0036",
+    "ticket_id": "TK-0038",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "email",
@@ -324,7 +342,7 @@
     "mensagem": "Excelente atendimento, obrigado!"
   },
   {
-    "ticket_id": "TK-0037",
+    "ticket_id": "TK-0039",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -333,7 +351,7 @@
     "mensagem": "Enviem a resposta para leonor.pinto73@outlook.pt, obrigado."
   },
   {
-    "ticket_id": "TK-0038",
+    "ticket_id": "TK-0040",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -342,7 +360,7 @@
     "mensagem": "Moro na Rua da Boavista, 86, 4700-591 Braga e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0039",
+    "ticket_id": "TK-0041",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "formulario_web",
@@ -351,7 +369,7 @@
     "mensagem": "NIF 306205530 / tel 938538463 / email paulo.sousa11@gmail.com - por favor atualizem a minha ficha."
   },
   {
-    "ticket_id": "TK-0040",
+    "ticket_id": "TK-0042",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -360,7 +378,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0041",
+    "ticket_id": "TK-0043",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -369,7 +387,7 @@
     "mensagem": "Moro na Rua Nova de Santa Cruz, 103, 4700-231 Braga e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0042",
+    "ticket_id": "TK-0044",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -378,7 +396,7 @@
     "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 23159172404 05."
   },
   {
-    "ticket_id": "TK-0043",
+    "ticket_id": "TK-0045",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "chat",
@@ -387,7 +405,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0044",
+    "ticket_id": "TK-0046",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -396,7 +414,7 @@
     "mensagem": "Moro na Travessa do Carmo, 94, 4900-638 Viana do Castelo e a encomenda não chegou."
   },
   {
-    "ticket_id": "TK-0045",
+    "ticket_id": "TK-0047",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "app",
@@ -405,7 +423,7 @@
     "mensagem": "O meu cartão de cidadão é 24193591 7 ZZ7 e preciso de alterar os dados."
   },
   {
-    "ticket_id": "TK-0046",
+    "ticket_id": "TK-0048",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "email",
@@ -414,7 +432,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0047",
+    "ticket_id": "TK-0049",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -423,7 +441,7 @@
     "mensagem": "Enviem a resposta para nuno.lopes30@sapo.pt, obrigado."
   },
   {
-    "ticket_id": "TK-0048",
+    "ticket_id": "TK-0050",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "app",
@@ -432,7 +450,7 @@
     "mensagem": "Posso alterar a marcação de quinta para sexta?"
   },
   {
-    "ticket_id": "TK-0049",
+    "ticket_id": "TK-0051",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -441,7 +459,7 @@
     "mensagem": "Tenho diabetes tipo 2, posso fazer o tratamento na mesma?"
   },
   {
-    "ticket_id": "TK-0050",
+    "ticket_id": "TK-0052",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "app",
@@ -450,7 +468,7 @@
     "mensagem": "Bom dia, o meu NIF é 104 531 258 e a fatura veio sem ele."
   },
   {
-    "ticket_id": "TK-0051",
+    "ticket_id": "TK-0053",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -459,7 +477,7 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0052",
+    "ticket_id": "TK-0054",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "email",
@@ -468,7 +486,7 @@
     "mensagem": "Bom dia, o meu NIF é 365 339 849 e a fatura veio sem ele."
   },
   {
-    "ticket_id": "TK-0053",
+    "ticket_id": "TK-0055",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -477,7 +495,7 @@
     "mensagem": "Enviem a resposta para joao.pinto38@outlook.pt, obrigado."
   },
   {
-    "ticket_id": "TK-0054",
+    "ticket_id": "TK-0056",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -486,7 +504,7 @@
     "mensagem": "Qual é o horário de funcionamento no feriado?"
   },
   {
-    "ticket_id": "TK-0055",
+    "ticket_id": "TK-0057",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "formulario_web",
@@ -495,7 +513,7 @@
     "mensagem": "O meu cartão de cidadão é 23104247 1 ZZ6 e preciso de alterar os dados."
   },
   {
-    "ticket_id": "TK-0056",
+    "ticket_id": "TK-0058",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
     "canal": "chat",
@@ -504,7 +522,7 @@
     "mensagem": "NIF 395573211 / tel 963544334 / email filipa.oliveira22@outlook.pt - por favor atualizem a minha ficha."
   },
   {
-    "ticket_id": "TK-0057",
+    "ticket_id": "TK-0059",
     "empresa": "C",
     "empresa_nome": "TechCávado Informática, Lda",
     "canal": "formulario_web",
@@ -513,7 +531,7 @@
     "mensagem": "Gostaria de saber se têm o modelo em stock."
   },
   {
-    "ticket_id": "TK-0058",
+    "ticket_id": "TK-0060",
     "empresa": "B",
     "empresa_nome": "Ginásio Movimento Braga, Lda",
     "canal": "chat",
@@ -522,40 +540,22 @@
     "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
-    "ticket_id": "TK-0059",
-    "empresa": "A",
-    "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
-    "canal": "chat",
-    "assunto": "Marcação",
-    "cliente_nome": "Nuno Lopes Almeida",
-    "mensagem": "Moro na Rua do Souto, 85, 4750-771 Barcelos e a encomenda não chegou."
-  },
-  {
-    "ticket_id": "TK-0060",
-    "empresa": "B",
-    "empresa_nome": "Ginásio Movimento Braga, Lda",
-    "canal": "formulario_web",
-    "assunto": "Pedido de informação",
-    "cliente_nome": "Bruno Pinto Almeida",
-    "mensagem": "Excelente atendimento, obrigado!"
-  },
-  {
     "ticket_id": "TK-0006",
     "empresa": "A",
     "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
-    "canal": "chat",
-    "assunto": "Marcação",
-    "cliente_nome": "Marta Pereira Marques",
-    "mensagem": "Gostaria de saber se têm o modelo em stock."
+    "canal": "formulario_web",
+    "assunto": "Faturação",
+    "cliente_nome": "Beatriz Pinto Nunes",
+    "mensagem": "O pagamento por MB Way falhou duas vezes."
   },
   {
     "ticket_id": "TK-0018",
-    "empresa": "A",
-    "empresa_nome": "Clínica Dentária Sorriso do Minho, Lda",
-    "canal": "email",
-    "assunto": "Suporte técnico",
-    "cliente_nome": "Teresa Santos Gonçalves",
-    "mensagem": "Gostaria de saber se têm o modelo em stock."
+    "empresa": "B",
+    "empresa_nome": "Ginásio Movimento Braga, Lda",
+    "canal": "chat",
+    "assunto": "Faturação",
+    "cliente_nome": "Catarina Oliveira Correia",
+    "mensagem": "Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05."
   },
   {
     "ticket_id": "TK-9999",

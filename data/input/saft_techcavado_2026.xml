@@ -12,206 +12,560 @@
   <MasterFiles>
     <Customer>
       <CustomerID>CLI001</CustomerID>
-      <CustomerTaxID>294155368</CustomerTaxID>
-      <CompanyName>Leonor Santos Correia</CompanyName>
+      <CustomerTaxID>233687645</CustomerTaxID>
+      <CompanyName>Teresa Gonçalves Santos</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua dos Chãos, 236</AddressDetail>
-        <City>Guimarães</City>
-        <PostalCode>4800-534</PostalCode>
+        <AddressDetail>Rua Nova de Santa Cruz, 237</AddressDetail>
+        <City>Braga</City>
+        <PostalCode>4700-510</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>925492640</Telephone>
-      <Email>leonor.correia96@outlook.pt</Email>
+      <Telephone>917613420</Telephone>
+      <Email>teresa.santos31@hotmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI002</CustomerID>
-      <CustomerTaxID>312746229</CustomerTaxID>
-      <CompanyName>Marta Costa Pereira</CompanyName>
+      <CustomerTaxID>185476678</CustomerTaxID>
+      <CompanyName>Bruno Pinto Jesus</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua dos Chãos, 135</AddressDetail>
-        <City>Póvoa de Lanhoso</City>
-        <PostalCode>4830-985</PostalCode>
+        <AddressDetail>Rua de São Vicente, 192</AddressDetail>
+        <City>Braga</City>
+        <PostalCode>4700-027</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>910229858</Telephone>
-      <Email>marta.pereira61@outlook.pt</Email>
+      <Telephone>966344881</Telephone>
+      <Email>bruno.jesus42@outlook.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI003</CustomerID>
-      <CustomerTaxID>159489350</CustomerTaxID>
-      <CompanyName>Catarina Gonçalves Ferreira</CompanyName>
+      <CustomerTaxID>154464430</CustomerTaxID>
+      <CompanyName>Beatriz Pinto Martins</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua dos Chãos, 52</AddressDetail>
-        <City>Braga</City>
-        <PostalCode>4700-983</PostalCode>
+        <AddressDetail>Travessa do Carmo, 234</AddressDetail>
+        <City>Guimarães</City>
+        <PostalCode>4800-267</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>939146525</Telephone>
-      <Email>catarina.ferreira18@hotmail.com</Email>
+      <Telephone>922943030</Telephone>
+      <Email>beatriz.martins83@outlook.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI004</CustomerID>
-      <CustomerTaxID>376842490</CustomerTaxID>
-      <CompanyName>Tiago Jesus Nunes</CompanyName>
+      <CustomerTaxID>320710130</CustomerTaxID>
+      <CompanyName>Helena Sousa Pereira</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua do Souto, 249</AddressDetail>
-        <City>Barcelos</City>
-        <PostalCode>4750-998</PostalCode>
+        <AddressDetail>Avenida da Liberdade, 192</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-780</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>915881819</Telephone>
-      <Email>tiago.nunes9@sapo.pt</Email>
+      <Telephone>962703046</Telephone>
+      <Email>helena.pereira46@outlook.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI005</CustomerID>
-      <CustomerTaxID>229425640</CustomerTaxID>
-      <CompanyName>Filipa Gomes Martins</CompanyName>
+      <CustomerTaxID>253635497</CustomerTaxID>
+      <CompanyName>Leonor Correia Almeida</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua Nova de Santa Cruz, 240</AddressDetail>
-        <City>Póvoa de Lanhoso</City>
-        <PostalCode>4830-005</PostalCode>
+        <AddressDetail>Avenida da Liberdade, 170</AddressDetail>
+        <City>Esposende</City>
+        <PostalCode>4740-876</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>923545562</Telephone>
-      <Email>filipa.martins15@gmail.com</Email>
+      <Telephone>926408862</Telephone>
+      <Email>leonor.almeida40@gmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI006</CustomerID>
-      <CustomerTaxID>129325830</CustomerTaxID>
-      <CompanyName>Beatriz Rodrigues Marques</CompanyName>
+      <CustomerTaxID>374622108</CustomerTaxID>
+      <CompanyName>Vasco Fernandes Sousa</CompanyName>
       <BillingAddress>
-        <AddressDetail>Largo do Paço, 176</AddressDetail>
-        <City>Guimarães</City>
-        <PostalCode>4800-435</PostalCode>
+        <AddressDetail>Rua da Boavista, 23</AddressDetail>
+        <City>Esposende</City>
+        <PostalCode>4740-591</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>931534828</Telephone>
-      <Email>beatriz.marques18@outlook.pt</Email>
+      <Telephone>922985888</Telephone>
+      <Email>vasco.sousa97@hotmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI007</CustomerID>
-      <CustomerTaxID>387338365</CustomerTaxID>
-      <CompanyName>Marta Sousa Costa</CompanyName>
+      <CustomerTaxID>348935498</CustomerTaxID>
+      <CompanyName>Ana Almeida Ribeiro</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua de São Vicente, 156</AddressDetail>
-        <City>Póvoa de Lanhoso</City>
-        <PostalCode>4830-036</PostalCode>
+        <AddressDetail>Largo do Paço, 200</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-178</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>962022920</Telephone>
-      <Email>marta.costa40@hotmail.com</Email>
+      <Telephone>914652583</Telephone>
+      <Email>ana.ribeiro20@sapo.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI008</CustomerID>
-      <CustomerTaxID>142103772</CustomerTaxID>
-      <CompanyName>Diogo Alves Ribeiro</CompanyName>
+      <CustomerTaxID>284249157</CustomerTaxID>
+      <CompanyName>Rui Lopes Martins</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua do Souto, 201</AddressDetail>
+        <AddressDetail>Rua Nova de Santa Cruz, 30</AddressDetail>
         <City>Braga</City>
-        <PostalCode>4700-988</PostalCode>
+        <PostalCode>4700-989</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>939739271</Telephone>
-      <Email>diogo.ribeiro62@sapo.pt</Email>
+      <Telephone>918190637</Telephone>
+      <Email>rui.martins97@outlook.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI009</CustomerID>
-      <CustomerTaxID>368350401</CustomerTaxID>
-      <CompanyName>Vasco Santos Moreira</CompanyName>
+      <CustomerTaxID>293354553</CustomerTaxID>
+      <CompanyName>Maria Marques Oliveira</CompanyName>
       <BillingAddress>
-        <AddressDetail>Avenida Central, 181</AddressDetail>
-        <City>Braga</City>
-        <PostalCode>4700-030</PostalCode>
+        <AddressDetail>Travessa do Carmo, 35</AddressDetail>
+        <City>Vila Nova de Famalicão</City>
+        <PostalCode>4760-327</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>961872524</Telephone>
-      <Email>vasco.moreira43@sapo.pt</Email>
+      <Telephone>962073374</Telephone>
+      <Email>maria.oliveira48@outlook.pt</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI010</CustomerID>
-      <CustomerTaxID>384538100</CustomerTaxID>
-      <CompanyName>Luís Lopes Martins</CompanyName>
+      <CustomerTaxID>351534822</CustomerTaxID>
+      <CompanyName>Vasco Lopes Santos</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua Dom Pedro V, 224</AddressDetail>
-        <City>Póvoa de Lanhoso</City>
-        <PostalCode>4830-046</PostalCode>
+        <AddressDetail>Travessa do Carmo, 231</AddressDetail>
+        <City>Barcelos</City>
+        <PostalCode>4750-187</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>939813417</Telephone>
-      <Email>luis.martins64@sapo.pt</Email>
+      <Telephone>964642894</Telephone>
+      <Email>vasco.santos44@hotmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI011</CustomerID>
-      <CustomerTaxID>179603086</CustomerTaxID>
-      <CompanyName>Maria Rodrigues Lopes</CompanyName>
+      <CustomerTaxID>262022923</CustomerTaxID>
+      <CompanyName>Vasco Ribeiro Moreira</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua Nova de Santa Cruz, 139</AddressDetail>
+        <AddressDetail>Largo do Paço, 123</AddressDetail>
         <City>Viana do Castelo</City>
-        <PostalCode>4900-862</PostalCode>
+        <PostalCode>4900-328</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>937633755</Telephone>
-      <Email>maria.lopes78@hotmail.com</Email>
+      <Telephone>910299781</Telephone>
+      <Email>vasco.moreira32@hotmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI012</CustomerID>
-      <CustomerTaxID>213248344</CustomerTaxID>
-      <CompanyName>Paulo Pinto Alves</CompanyName>
+      <CustomerTaxID>177859733</CustomerTaxID>
+      <CompanyName>Joana Gonçalves Santos</CompanyName>
       <BillingAddress>
-        <AddressDetail>Largo do Paço, 111</AddressDetail>
-        <City>Braga</City>
-        <PostalCode>4700-352</PostalCode>
+        <AddressDetail>Rua da Boavista, 228</AddressDetail>
+        <City>Póvoa de Lanhoso</City>
+        <PostalCode>4830-813</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>917834241</Telephone>
-      <Email>paulo.alves41@hotmail.com</Email>
+      <Telephone>927100171</Telephone>
+      <Email>joana.santos12@gmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI013</CustomerID>
-      <CustomerTaxID>153737409</CustomerTaxID>
-      <CompanyName>Joana Costa Marques</CompanyName>
+      <CustomerTaxID>204061873</CustomerTaxID>
+      <CompanyName>Luís Sousa Moreira</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua Nova de Santa Cruz, 72</AddressDetail>
-        <City>Vila Nova de Famalicão</City>
-        <PostalCode>4760-720</PostalCode>
+        <AddressDetail>Rua do Souto, 60</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-242</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>912409440</Telephone>
-      <Email>joana.marques46@sapo.pt</Email>
+      <Telephone>925240686</Telephone>
+      <Email>luis.moreira92@hotmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI014</CustomerID>
-      <CustomerTaxID>150171412</CustomerTaxID>
-      <CompanyName>Pedro Ferreira Rodrigues</CompanyName>
+      <CustomerTaxID>159813417</CustomerTaxID>
+      <CompanyName>André Sousa Mendes</CompanyName>
       <BillingAddress>
-        <AddressDetail>Largo do Paço, 43</AddressDetail>
+        <AddressDetail>Rua Dom Pedro V, 36</AddressDetail>
         <City>Vila Nova de Famalicão</City>
-        <PostalCode>4760-585</PostalCode>
+        <PostalCode>4760-621</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>966590144</Telephone>
-      <Email>pedro.rodrigues9@sapo.pt</Email>
+      <Telephone>960313624</Telephone>
+      <Email>andre.mendes28@gmail.com</Email>
     </Customer>
     <Customer>
       <CustomerID>CLI015</CustomerID>
-      <CustomerTaxID>283708395</CustomerTaxID>
-      <CompanyName>Carla Gonçalves Oliveira</CompanyName>
+      <CustomerTaxID>263375579</CustomerTaxID>
+      <CompanyName>André Carvalho Gomes</CompanyName>
       <BillingAddress>
-        <AddressDetail>Rua de São Vicente, 161</AddressDetail>
-        <City>Póvoa de Lanhoso</City>
-        <PostalCode>4830-996</PostalCode>
+        <AddressDetail>Rua de São Vicente, 195</AddressDetail>
+        <City>Viana do Castelo</City>
+        <PostalCode>4900-210</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
-      <Telephone>964882857</Telephone>
-      <Email>carla.oliveira34@gmail.com</Email>
+      <Telephone>960285241</Telephone>
+      <Email>andre.gomes7@sapo.pt</Email>
     </Customer>
   </MasterFiles>
   <SourceDocuments>
     <SalesInvoices>
       <Invoice>
         <InvoiceNo>FT C2026/1</InvoiceNo>
+        <InvoiceDate>2026-05-19</InvoiceDate>
+        <CustomerID>CLI015</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>RAT01</ProductCode>
+          <ProductDescription>Rato sem fios</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>19.90</UnitPrice>
+          <CreditAmount>39.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>RAT01</ProductCode>
+          <ProductDescription>Rato sem fios</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>19.90</UnitPrice>
+          <CreditAmount>39.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>1377.60</NetTotal>
+          <TaxPayable>316.85</TaxPayable>
+          <GrossTotal>1694.45</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/2</InvoiceNo>
+        <InvoiceDate>2026-03-09</InvoiceDate>
+        <CustomerID>CLI015</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>159.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>1457.80</NetTotal>
+          <TaxPayable>335.29</TaxPayable>
+          <GrossTotal>1793.09</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/3</InvoiceNo>
+        <InvoiceDate>2026-04-05</InvoiceDate>
+        <CustomerID>CLI009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>RAT01</ProductCode>
+          <ProductDescription>Rato sem fios</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>19.90</UnitPrice>
+          <CreditAmount>39.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>159.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>199.60</NetTotal>
+          <TaxPayable>45.91</TaxPayable>
+          <GrossTotal>245.51</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/4</InvoiceNo>
+        <InvoiceDate>11/07/2026</InvoiceDate>
+        <CustomerID>CLI001</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>55.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>55.00</NetTotal>
+          <TaxPayable>12.65</TaxPayable>
+          <GrossTotal>67.65</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/5</InvoiceNo>
+        <InvoiceDate>2026-05-15</InvoiceDate>
+        <CustomerID>CLI008</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>649.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>649.00</NetTotal>
+          <TaxPayable>149.27</TaxPayable>
+          <GrossTotal>798.27</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/6</InvoiceNo>
+        <InvoiceDate>2026-01-17</InvoiceDate>
+        <CustomerID>CLI005</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>159.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>79.90</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>1537.70</NetTotal>
+          <TaxPayable>353.67</TaxPayable>
+          <GrossTotal>1891.37</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/7</InvoiceNo>
+        <InvoiceDate>2026-04-11</InvoiceDate>
+        <CustomerID>CLI002</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>110.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>2706.00</NetTotal>
+          <TaxPayable>622.38</TaxPayable>
+          <GrossTotal>3328.38</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/8</InvoiceNo>
+        <InvoiceDate>2026-01-07</InvoiceDate>
+        <CustomerID>CLI015</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>55.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>55.00</NetTotal>
+          <TaxPayable>12.65</TaxPayable>
+          <GrossTotal>67.65</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/9</InvoiceNo>
+        <InvoiceDate>2026-02-21</InvoiceDate>
+        <CustomerID>CLI005</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>110.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>79.90</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>PC001</ProductCode>
+          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>649.00</UnitPrice>
+          <CreditAmount>1298.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>1487.90</NetTotal>
+          <TaxPayable>342.22</TaxPayable>
+          <GrossTotal>1830.12</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/10</InvoiceNo>
+        <InvoiceDate>2026-06-05</InvoiceDate>
+        <CustomerID>CLI005</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>159.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>159.80</NetTotal>
+          <TaxPayable>36.75</TaxPayable>
+          <GrossTotal>196.55</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/11</InvoiceNo>
+        <InvoiceDate>2026-07-28</InvoiceDate>
+        <CustomerID>CLI003</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>SSD01</ProductCode>
+          <ProductDescription>Disco SSD 1TB</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>79.90</UnitPrice>
+          <CreditAmount>79.90</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>55.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>55.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>189.90</NetTotal>
+          <TaxPayable>43.68</TaxPayable>
+          <GrossTotal>233.58</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/12</InvoiceNo>
+        <InvoiceDate>2026-05-05</InvoiceDate>
+        <CustomerID>CLI013</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>110.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>RAT01</ProductCode>
+          <ProductDescription>Rato sem fios</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitPrice>19.90</UnitPrice>
+          <CreditAmount>39.80</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>REP01</ProductCode>
+          <ProductDescription>Reparação de portátil</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitPrice>55.00</UnitPrice>
+          <CreditAmount>55.00</CreditAmount>
+          <TaxPercentage>23</TaxPercentage>
+        </Line>
+        <DocumentTotals>
+          <NetTotal>204.80</NetTotal>
+          <TaxPayable>47.10</TaxPayable>
+          <GrossTotal>251.90</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT C2026/13</InvoiceNo>
         <InvoiceDate>2026-06-27</InvoiceDate>
-        <CustomerID>CLI010</CustomerID>
+        <CustomerID>CLI011</CustomerID>
         <Line>
           <LineNumber>1</LineNumber>
           <ProductCode>SSD01</ProductCode>
@@ -246,7 +600,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/2</InvoiceNo>
+        <InvoiceNo>FT C2026/14</InvoiceNo>
         <InvoiceDate>2026-05-07</InvoiceDate>
         <CustomerID>CLI005</CustomerID>
         <Line>
@@ -283,7 +637,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/3</InvoiceNo>
+        <InvoiceNo>FT C2026/15</InvoiceNo>
         <InvoiceDate>2026-07-17</InvoiceDate>
         <CustomerID>CLI008</CustomerID>
         <Line>
@@ -302,8 +656,8 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/4</InvoiceNo>
-        <InvoiceDate>02/04/2026</InvoiceDate>
+        <InvoiceNo>FT C2026/16</InvoiceNo>
+        <InvoiceDate>2026-04-02</InvoiceDate>
         <CustomerID>CLI005</CustomerID>
         <Line>
           <LineNumber>1</LineNumber>
@@ -339,7 +693,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/5</InvoiceNo>
+        <InvoiceNo>FT C2026/17</InvoiceNo>
         <InvoiceDate>2026-08-31</InvoiceDate>
         <CustomerID>CLI010</CustomerID>
         <Line>
@@ -376,7 +730,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/6</InvoiceNo>
+        <InvoiceNo>FT C2026/18</InvoiceNo>
         <InvoiceDate>2026-04-25</InvoiceDate>
         <CustomerID>CLI011</CustomerID>
         <Line>
@@ -395,7 +749,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/7</InvoiceNo>
+        <InvoiceNo>FT C2026/19</InvoiceNo>
         <InvoiceDate>2026-06-28</InvoiceDate>
         <CustomerID>CLI010</CustomerID>
         <Line>
@@ -414,7 +768,7 @@
         </DocumentTotals>
       </Invoice>
       <Invoice>
-        <InvoiceNo>FT C2026/8</InvoiceNo>
+        <InvoiceNo>FT C2026/20</InvoiceNo>
         <InvoiceDate>2026-09-26</InvoiceDate>
         <CustomerID>CLI001</CustomerID>
         <Line>
@@ -439,342 +793,6 @@
           <NetTotal>94.80</NetTotal>
           <TaxPayable>21.80</TaxPayable>
           <GrossTotal>116.60</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/9</InvoiceNo>
-        <InvoiceDate>2026-04-07</InvoiceDate>
-        <CustomerID>CLI004</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>SSD01</ProductCode>
-          <ProductDescription>Disco SSD 1TB</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>79.90</UnitPrice>
-          <CreditAmount>159.80</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>39.80</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>3</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>19.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>219.50</NetTotal>
-          <TaxPayable>50.49</TaxPayable>
-          <GrossTotal>269.99</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/10</InvoiceNo>
-        <InvoiceDate>2026-07-02</InvoiceDate>
-        <CustomerID>CLI003</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>649.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>19.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>668.90</NetTotal>
-          <TaxPayable>153.85</TaxPayable>
-          <GrossTotal>822.75</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/11</InvoiceNo>
-        <InvoiceDate>2026-09-12</InvoiceDate>
-        <CustomerID>CLI010</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>110.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>110.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>220.00</NetTotal>
-          <TaxPayable>50.60</TaxPayable>
-          <GrossTotal>270.60</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/12</InvoiceNo>
-        <InvoiceDate>2026-07-09</InvoiceDate>
-        <CustomerID>CLI007</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>SSD01</ProductCode>
-          <ProductDescription>Disco SSD 1TB</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>79.90</UnitPrice>
-          <CreditAmount>159.80</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>55.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>3</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>39.80</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>254.60</NetTotal>
-          <TaxPayable>58.56</TaxPayable>
-          <GrossTotal>313.16</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/13</InvoiceNo>
-        <InvoiceDate>2026-08-24</InvoiceDate>
-        <CustomerID>CLI007</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>1298.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>1298.00</NetTotal>
-          <TaxPayable>298.54</TaxPayable>
-          <GrossTotal>1596.54</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/14</InvoiceNo>
-        <InvoiceDate>2026-09-13</InvoiceDate>
-        <CustomerID>CLI009</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>649.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>649.00</NetTotal>
-          <TaxPayable>149.27</TaxPayable>
-          <GrossTotal>798.27</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/15</InvoiceNo>
-        <InvoiceDate>2026-07-10</InvoiceDate>
-        <CustomerID>CLI014</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>19.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>19.90</NetTotal>
-          <TaxPayable>4.58</TaxPayable>
-          <GrossTotal>24.48</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/16</InvoiceNo>
-        <InvoiceDate>2026-04-12</InvoiceDate>
-        <CustomerID>CLI013</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>1298.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>110.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>1408.00</NetTotal>
-          <TaxPayable>323.84</TaxPayable>
-          <GrossTotal>1731.84</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/17</InvoiceNo>
-        <InvoiceDate>2026-08-17</InvoiceDate>
-        <CustomerID>CLI009</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>SSD01</ProductCode>
-          <ProductDescription>Disco SSD 1TB</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>79.90</UnitPrice>
-          <CreditAmount>159.80</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>SSD01</ProductCode>
-          <ProductDescription>Disco SSD 1TB</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>79.90</UnitPrice>
-          <CreditAmount>79.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>239.70</NetTotal>
-          <TaxPayable>55.13</TaxPayable>
-          <GrossTotal>294.83</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/18</InvoiceNo>
-        <InvoiceDate>2026-02-12</InvoiceDate>
-        <CustomerID>CLI001</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>SSD01</ProductCode>
-          <ProductDescription>Disco SSD 1TB</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>79.90</UnitPrice>
-          <CreditAmount>79.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>110.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>3</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>649.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>838.90</NetTotal>
-          <TaxPayable>192.95</TaxPayable>
-          <GrossTotal>1031.85</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/19</InvoiceNo>
-        <InvoiceDate>2026-02-13</InvoiceDate>
-        <CustomerID>CLI010</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>649.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>2</LineNumber>
-          <ProductCode>REP01</ProductCode>
-          <ProductDescription>Reparação de portátil</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>55.00</UnitPrice>
-          <CreditAmount>55.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <Line>
-          <LineNumber>3</LineNumber>
-          <ProductCode>PC001</ProductCode>
-          <ProductDescription>Portátil 14" Ryzen 5</ProductDescription>
-          <Quantity>2</Quantity>
-          <UnitPrice>649.00</UnitPrice>
-          <CreditAmount>1298.00</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>2002.00</NetTotal>
-          <TaxPayable>460.46</TaxPayable>
-          <GrossTotal>2462.46</GrossTotal>
-        </DocumentTotals>
-      </Invoice>
-      <Invoice>
-        <InvoiceNo>FT C2026/20</InvoiceNo>
-        <InvoiceDate>2026-02-19</InvoiceDate>
-        <CustomerID>CLI004</CustomerID>
-        <Line>
-          <LineNumber>1</LineNumber>
-          <ProductCode>RAT01</ProductCode>
-          <ProductDescription>Rato sem fios</ProductDescription>
-          <Quantity>1</Quantity>
-          <UnitPrice>19.90</UnitPrice>
-          <CreditAmount>19.90</CreditAmount>
-          <TaxPercentage>23</TaxPercentage>
-        </Line>
-        <DocumentTotals>
-          <NetTotal>19.90</NetTotal>
-          <TaxPayable>4.58</TaxPayable>
-          <GrossTotal>24.48</GrossTotal>
         </DocumentTotals>
       </Invoice>
     </SalesInvoices>

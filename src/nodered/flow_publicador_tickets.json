@@ -1,0 +1,153 @@
+[
+  {
+    "id": "piiguard_pub_tab",
+    "type": "tab",
+    "label": "PiiGuard - Publicador de tickets",
+    "disabled": false,
+    "info": "Simula a chegada assíncrona de tickets de suporte das 3 empresas.\nPublica 1 ticket a cada 5 segundos no tópico MQTT piiguard/tickets."
+  },
+  {
+    "id": "pg_broker",
+    "type": "mqtt-broker",
+    "name": "Mosquitto local",
+    "broker": "localhost",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "autoUnsubscribe": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "pg_comment",
+    "type": "comment",
+    "z": "piiguard_pub_tab",
+    "name": "Clique no botão do 'a cada 5 s' para começar; 'reiniciar' volta ao 1.º ticket",
+    "info": "",
+    "x": 330,
+    "y": 40,
+    "wires": []
+  },
+  {
+    "id": "pg_inject",
+    "type": "inject",
+    "z": "piiguard_pub_tab",
+    "name": "a cada 5 s",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "5",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "tick",
+    "payloadType": "str",
+    "x": 140,
+    "y": 100,
+    "wires": [
+      [
+        "pg_func"
+      ]
+    ]
+  },
+  {
+    "id": "pg_reset",
+    "type": "inject",
+    "z": "piiguard_pub_tab",
+    "name": "reiniciar",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "reiniciar",
+    "payloadType": "str",
+    "x": 130,
+    "y": 160,
+    "wires": [
+      [
+        "pg_func"
+      ]
+    ]
+  },
+  {
+    "id": "pg_func",
+    "type": "function",
+    "z": "piiguard_pub_tab",
+    "name": "próximo ticket",
+    "func": "// Simula o sistema de suporte das empresas: publica 1 ticket de cada vez no MQTT\nconst tickets = [{\"ticket_id\": \"TK-0001\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Bruno Correia Rodrigues\", \"mensagem\": \"Gostaria de saber se têm o modelo em stock.\"}, {\"ticket_id\": \"TK-0002\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Mariana Gonçalves Santos\", \"mensagem\": \"Por favor liguem-me para o 936-500-185, ninguém atende na loja.\"}, {\"ticket_id\": \"TK-0003\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Mariana Marques Pereira\", \"mensagem\": \"Enviem a resposta para mariana.pereira48@outlook.pt, obrigado.\"}, {\"ticket_id\": \"TK-0004\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Paulo Marques Oliveira\", \"mensagem\": \"NIF 121960137 / tel 930457656 / email paulo.oliveira27@hotmail.com - por favor atualizem a minha ficha.\"}, {\"ticket_id\": \"TK-0005\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Rita Lopes Nunes\", \"mensagem\": \"Bom dia, o meu NIF é 217 507 573 e a fatura veio sem ele.\"}, {\"ticket_id\": \"TK-0006\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Beatriz Pinto Nunes\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0007\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Ana Ferreira Teixeira\", \"mensagem\": \"Qual é o horário de funcionamento no feriado?\"}, {\"ticket_id\": \"TK-0008\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Marta Pereira Marques\", \"mensagem\": \"Gostaria de saber se têm o modelo em stock.\"}, {\"ticket_id\": \"TK-0009\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Catarina Silva Alves\", \"mensagem\": \"A aplicação não abre desde a última atualização.\"}, {\"ticket_id\": \"TK-0010\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Leonor Gomes Nunes\", \"mensagem\": \"Qual é o horário de funcionamento no feriado?\"}, {\"ticket_id\": \"TK-0011\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"email\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"Helena Marques Moreira\", \"mensagem\": \"Excelente atendimento, obrigado!\"}, {\"ticket_id\": \"TK-0012\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Sofia Teixeira Jesus\", \"mensagem\": \"Moro na Rua da Boavista, 193, 4740-508 Esposende e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0013\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"chat\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Bruno Rodrigues Gonçalves\", \"mensagem\": \"Bom dia, o meu NIF é 308 958 780 e a fatura veio sem ele.\"}, {\"ticket_id\": \"TK-0014\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"João Martins Rodrigues\", \"mensagem\": \"Bom dia, o meu NIF é 166 975 796 e a fatura veio sem ele.\"}, {\"ticket_id\": \"TK-0015\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"app\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Hugo Marques Ribeiro\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0016\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"email\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Carla Alves Almeida\", \"mensagem\": \"Excelente atendimento, obrigado!\"}, {\"ticket_id\": \"TK-0017\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Maria Costa Fernandes\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0018\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Catarina Oliveira Correia\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05.\"}, {\"ticket_id\": \"TK-0019\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Helena Sousa Santos\", \"mensagem\": \"O meu cartão de cidadão é 21858091 8 ZZ8 e preciso de alterar os dados.\"}, {\"ticket_id\": \"TK-0020\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Teresa Santos Gonçalves\", \"mensagem\": \"Gostaria de saber se têm o modelo em stock.\"}, {\"ticket_id\": \"TK-0021\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Ricardo Teixeira Pereira\", \"mensagem\": \"Moro na Rua da Boavista, 71, 4740-742 Esposende e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0022\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Pedro Santos Jesus\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0023\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Rui Alves Fernandes\", \"mensagem\": \"Por favor liguem-me para o 964-595-061, ninguém atende na loja.\"}, {\"ticket_id\": \"TK-0024\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"email\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Hugo Carvalho Nunes\", \"mensagem\": \"O meu cartão de cidadão é 10443206 4 ZZ4 e preciso de alterar os dados.\"}, {\"ticket_id\": \"TK-0025\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Diogo Moreira Carvalho\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0026\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"app\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Rita Jesus Correia\", \"mensagem\": \"O meu cartão de cidadão é 36928523 1 ZZ6 e preciso de alterar os dados.\"}, {\"ticket_id\": \"TK-0027\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Mariana Correia Oliveira\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0028\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Vasco Martins Sousa\", \"mensagem\": \"NIF 330102575 / tel 939885287 / email vasco.sousa19@outlook.pt - por favor atualizem a minha ficha.\"}, {\"ticket_id\": \"TK-0029\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Teresa Martins Rodrigues\", \"mensagem\": \"NIF 392539594 / tel 967338661 / email teresa.rodrigues92@hotmail.com - por favor atualizem a minha ficha.\"}, {\"ticket_id\": \"TK-0030\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Helena Fernandes Sousa\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 22503270873 05.\"}, {\"ticket_id\": \"TK-0031\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"Ricardo Costa Correia\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 49575566598 05.\"}, {\"ticket_id\": \"TK-0032\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"Miguel Santos Santos\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0033\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"chat\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Ana Marques Jesus\", \"mensagem\": \"Gostaria de saber se têm o modelo em stock.\"}, {\"ticket_id\": \"TK-0034\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Tiago Santos Fernandes\", \"mensagem\": \"Moro na Avenida da Liberdade, 38, 4900-963 Viana do Castelo e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0035\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"email\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Bruno Costa Correia\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 83154623746 05.\"}, {\"ticket_id\": \"TK-0036\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Miguel Costa Moreira\", \"mensagem\": \"Moro na Rua do Souto, 78, 4900-494 Viana do Castelo e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0037\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Nuno Santos Sousa\", \"mensagem\": \"Por favor liguem-me para o +351 928 525 849, ninguém atende na loja.\"}, {\"ticket_id\": \"TK-0038\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Helena Sousa Correia\", \"mensagem\": \"Excelente atendimento, obrigado!\"}, {\"ticket_id\": \"TK-0039\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Reclamação\", \"cliente_nome\": \"Leonor Marques Pinto\", \"mensagem\": \"Enviem a resposta para leonor.pinto73@outlook.pt, obrigado.\"}, {\"ticket_id\": \"TK-0040\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"Ricardo Oliveira Gonçalves\", \"mensagem\": \"Moro na Rua da Boavista, 86, 4700-591 Braga e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0041\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Paulo Carvalho Sousa\", \"mensagem\": \"NIF 306205530 / tel 938538463 / email paulo.sousa11@gmail.com - por favor atualizem a minha ficha.\"}, {\"ticket_id\": \"TK-0042\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Sofia Pinto Silva\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0043\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Beatriz Almeida Mendes\", \"mensagem\": \"Moro na Rua Nova de Santa Cruz, 103, 4700-231 Braga e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0044\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"Inês Ribeiro Silva\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 23159172404 05.\"}, {\"ticket_id\": \"TK-0045\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Ana Lopes Gomes\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0046\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Bruno Martins Marques\", \"mensagem\": \"Moro na Travessa do Carmo, 94, 4900-638 Viana do Castelo e a encomenda não chegou.\"}, {\"ticket_id\": \"TK-0047\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"app\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Maria Almeida Alves\", \"mensagem\": \"O meu cartão de cidadão é 24193591 7 ZZ7 e preciso de alterar os dados.\"}, {\"ticket_id\": \"TK-0048\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"email\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Leonor Silva Rodrigues\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0049\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Nuno Jesus Lopes\", \"mensagem\": \"Enviem a resposta para nuno.lopes30@sapo.pt, obrigado.\"}, {\"ticket_id\": \"TK-0050\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"app\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Mariana Marques Pereira\", \"mensagem\": \"Posso alterar a marcação de quinta para sexta?\"}, {\"ticket_id\": \"TK-0051\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Leonor Santos Fernandes\", \"mensagem\": \"Tenho diabetes tipo 2, posso fazer o tratamento na mesma?\"}, {\"ticket_id\": \"TK-0052\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"app\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Maria Carvalho Jesus\", \"mensagem\": \"Bom dia, o meu NIF é 104 531 258 e a fatura veio sem ele.\"}, {\"ticket_id\": \"TK-0053\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Pedro Pereira Rodrigues\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0054\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"email\", \"assunto\": \"Dados pessoais\", \"cliente_nome\": \"Teresa Pinto Lopes\", \"mensagem\": \"Bom dia, o meu NIF é 365 339 849 e a fatura veio sem ele.\"}, {\"ticket_id\": \"TK-0055\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Suporte técnico\", \"cliente_nome\": \"João Fernandes Pinto\", \"mensagem\": \"Enviem a resposta para joao.pinto38@outlook.pt, obrigado.\"}, {\"ticket_id\": \"TK-0056\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Mariana Ribeiro Teixeira\", \"mensagem\": \"Qual é o horário de funcionamento no feriado?\"}, {\"ticket_id\": \"TK-0057\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Pedido de informação\", \"cliente_nome\": \"André Pereira Ferreira\", \"mensagem\": \"O meu cartão de cidadão é 23104247 1 ZZ6 e preciso de alterar os dados.\"}, {\"ticket_id\": \"TK-0058\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Filipa Ferreira Oliveira\", \"mensagem\": \"NIF 395573211 / tel 963544334 / email filipa.oliveira22@outlook.pt - por favor atualizem a minha ficha.\"}, {\"ticket_id\": \"TK-0059\", \"empresa\": \"C\", \"empresa_nome\": \"TechCávado Informática, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Teresa Costa Gonçalves\", \"mensagem\": \"Gostaria de saber se têm o modelo em stock.\"}, {\"ticket_id\": \"TK-0060\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Marcação\", \"cliente_nome\": \"Pedro Alves Jesus\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0006\", \"empresa\": \"A\", \"empresa_nome\": \"Clínica Dentária Sorriso do Minho, Lda\", \"canal\": \"formulario_web\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Beatriz Pinto Nunes\", \"mensagem\": \"O pagamento por MB Way falhou duas vezes.\"}, {\"ticket_id\": \"TK-0018\", \"empresa\": \"B\", \"empresa_nome\": \"Ginásio Movimento Braga, Lda\", \"canal\": \"chat\", \"assunto\": \"Faturação\", \"cliente_nome\": \"Catarina Oliveira Correia\", \"mensagem\": \"Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05.\"}, {\"ticket_id\": \"TK-9999\", \"empresa\": \"B\", \"canal\": \"chat\"}];\n\nif (msg.payload === 'reiniciar') { context.set('i', 0); node.status({fill:'blue',shape:'ring',text:'reiniciado'}); return null; }\nlet i = context.get('i') || 0;\nif (i >= tickets.length) { node.status({fill:'grey',shape:'dot',text:'todos enviados (' + tickets.length + ')'}); return null; }\nconst t = Object.assign({}, tickets[i]);\nt.enviado_em = new Date().toISOString();\ncontext.set('i', i + 1);\nnode.status({fill:'green',shape:'dot',text:'enviado ' + (i + 1) + '/' + tickets.length});\nmsg.topic = 'piiguard/tickets';\nmsg.payload = JSON.stringify(t);\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 360,
+    "y": 130,
+    "wires": [
+      [
+        "pg_mqtt_out",
+        "pg_debug"
+      ]
+    ]
+  },
+  {
+    "id": "pg_mqtt_out",
+    "type": "mqtt out",
+    "z": "piiguard_pub_tab",
+    "name": "piiguard/tickets",
+    "topic": "",
+    "qos": "1",
+    "retain": "false",
+    "respTopic": "",
+    "contentType": "",
+    "userProps": "",
+    "correl": "",
+    "expiry": "",
+    "broker": "pg_broker",
+    "x": 590,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "pg_debug",
+    "type": "debug",
+    "z": "piiguard_pub_tab",
+    "name": "ver ticket enviado",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 600,
+    "y": 160,
+    "wires": []
+  }
+]

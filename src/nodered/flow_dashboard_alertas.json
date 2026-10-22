@@ -1,0 +1,293 @@
+[
+  {
+    "id": "piiguard_dash_tab",
+    "type": "tab",
+    "label": "PiiGuard - Dashboard de alertas",
+    "disabled": false,
+    "info": "Recebe os alertas que o Pentaho (c3_01b_processar_ticket) publica no tópico piiguard/alertas e mostra-os em http://localhost:1880/ui"
+  },
+  {
+    "id": "pd_broker",
+    "type": "mqtt-broker",
+    "name": "Mosquitto local (dashboard)",
+    "broker": "localhost",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "pd_ui_tab",
+    "type": "ui_tab",
+    "name": "PiiGuard",
+    "icon": "dashboard",
+    "order": 1,
+    "disabled": false,
+    "hidden": false
+  },
+  {
+    "id": "pd_grp_resumo",
+    "type": "ui_group",
+    "name": "Alertas de dados pessoais (tempo real)",
+    "tab": "pd_ui_tab",
+    "order": 1,
+    "disp": true,
+    "width": "12",
+    "collapse": false
+  },
+  {
+    "id": "pd_grp_lista",
+    "type": "ui_group",
+    "name": "Últimos tickets com dados pessoais",
+    "tab": "pd_ui_tab",
+    "order": 2,
+    "disp": true,
+    "width": "18",
+    "collapse": false
+  },
+  {
+    "id": "pd_mqtt_in",
+    "type": "mqtt in",
+    "z": "piiguard_dash_tab",
+    "name": "piiguard/alertas",
+    "topic": "piiguard/alertas",
+    "qos": "1",
+    "datatype": "json",
+    "broker": "pd_broker",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 130,
+    "y": 120,
+    "wires": [
+      [
+        "pd_contar",
+        "pd_debug"
+      ]
+    ]
+  },
+  {
+    "id": "pd_contar",
+    "type": "function",
+    "z": "piiguard_dash_tab",
+    "name": "contar alertas",
+    "func": "// Conta alertas por empresa e por gravidade (memória do fluxo)\nconst a = msg.payload;\nconst nomes = {A: 'Clínica', B: 'Ginásio', C: 'TechCávado'};\nlet emp = flow.get('porEmpresa') || {};\nlet grav = flow.get('porGravidade') || {};\nlet lista = flow.get('ultimos') || [];\nconst e = nomes[a.empresa] || a.empresa;\nemp[e] = (emp[e] || 0) + 1;\ngrav[a.gravidade] = (grav[a.gravidade] || 0) + 1;\nlista.unshift({hora: (a.recebido_em || '').substring(11), ticket: a.ticket_id, empresa: e,\n               tipos: a.tipos_pii, gravidade: a.gravidade, mensagem: a.mensagem_mascarada});\nlista = lista.slice(0, 12);\nflow.set('porEmpresa', emp); flow.set('porGravidade', grav); flow.set('ultimos', lista);\nconst total = Object.values(emp).reduce((s, v) => s + v, 0);\nconst empresas = Object.keys(emp);\nconst gravs = ['ALTA', 'MEDIA', 'BAIXA'];\nreturn [\n  {payload: empresas.map(k => ({nome: k, n: emp[k], pct: Math.round(100 * emp[k] / Math.max(...Object.values(emp)))}))},\n  {payload: [{series: ['Alertas'], data: [gravs.map(k => grav[k] || 0)], labels: gravs}]},\n  {payload: lista},\n  {payload: total}\n];",
+    "outputs": 4,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 360,
+    "y": 120,
+    "wires": [
+      [
+        "pd_chart_emp"
+      ],
+      [
+        "pd_chart_grav"
+      ],
+      [
+        "pd_tabela"
+      ],
+      [
+        "pd_total"
+      ]
+    ]
+  },
+  {
+    "id": "pd_chart_emp",
+    "type": "ui_template",
+    "z": "piiguard_dash_tab",
+    "group": "pd_grp_resumo",
+    "name": "Alertas por empresa",
+    "order": 2,
+    "width": "6",
+    "height": "5",
+    "format": "<h4 style='text-align:center;margin:4px'>Alertas por empresa</h4><div style=\"padding:4px 8px\">\n <div ng-repeat=\"b in msg.payload\" style=\"margin:10px 0\">\n  <div style=\"display:flex;justify-content:space-between;font-size:14px\"><span>{{b.nome}}</span><b>{{b.n}}</b></div>\n  <div style=\"background:#e3eef7;height:22px;border-radius:4px\">\n   <div style=\"background:#1f77b4;height:22px;border-radius:4px;width:{{b.pct}}%\"></div>\n  </div>\n </div>\n <div ng-if=\"!msg.payload || msg.payload.length == 0\" style=\"color:#888\">À espera de alertas...</div>\n</div>",
+    "storeOutMessages": true,
+    "fwdInMessages": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 610,
+    "y": 60,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "pd_chart_grav",
+    "type": "ui_chart",
+    "z": "piiguard_dash_tab",
+    "name": "por gravidade",
+    "group": "pd_grp_resumo",
+    "order": 3,
+    "width": "6",
+    "height": "5",
+    "label": "Alertas por gravidade",
+    "chartType": "pie",
+    "legend": "true",
+    "xformat": "HH:mm:ss",
+    "interpolate": "linear",
+    "nodata": "À espera de alertas...",
+    "dot": false,
+    "ymin": "",
+    "ymax": "",
+    "removeOlder": 1,
+    "removeOlderPoints": "",
+    "removeOlderUnit": "3600",
+    "cutout": 0,
+    "useOneColor": false,
+    "useUTC": false,
+    "colors": [
+      "#d62728",
+      "#ff7f0e",
+      "#2ca02c",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "outputs": 1,
+    "useDifferentColor": false,
+    "className": "",
+    "x": 610,
+    "y": 120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "pd_tabela",
+    "type": "ui_template",
+    "z": "piiguard_dash_tab",
+    "group": "pd_grp_lista",
+    "name": "tabela",
+    "order": 1,
+    "width": "18",
+    "height": "9",
+    "format": "<style>\n .pg-t {width:100%; border-collapse:collapse; font-size:13px}\n .pg-t th {text-align:left; border-bottom:1px solid #888; padding:4px}\n .pg-t td {padding:4px; border-bottom:1px solid #ddd; vertical-align:top}\n .ALTA {color:#c62828; font-weight:bold} .MEDIA {color:#ef6c00; font-weight:bold} .BAIXA {color:#2e7d32}\n</style>\n<table class=\"pg-t\">\n <tr><th>Hora</th><th>Ticket</th><th>Empresa</th><th>Tipos de PII</th><th>Gravidade</th><th>Mensagem (já mascarada)</th></tr>\n <tr ng-repeat=\"r in msg.payload\">\n  <td>{{r.hora}}</td><td>{{r.ticket}}</td><td>{{r.empresa}}</td><td>{{r.tipos}}</td>\n  <td class=\"{{r.gravidade}}\">{{r.gravidade}}</td><td>{{r.mensagem}}</td>\n </tr>\n</table>",
+    "storeOutMessages": true,
+    "fwdInMessages": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 600,
+    "y": 180,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "pd_total",
+    "type": "ui_text",
+    "z": "piiguard_dash_tab",
+    "group": "pd_grp_resumo",
+    "order": 1,
+    "width": "12",
+    "height": "1",
+    "name": "total",
+    "label": "Total de alertas recebidos",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "className": "",
+    "x": 590,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "pd_debug",
+    "type": "debug",
+    "z": "piiguard_dash_tab",
+    "name": "ver alerta",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 340,
+    "y": 200,
+    "wires": []
+  },
+  {
+    "id": "pd_reset_btn",
+    "type": "ui_button",
+    "z": "piiguard_dash_tab",
+    "name": "",
+    "group": "pd_grp_resumo",
+    "order": 4,
+    "width": "12",
+    "height": "1",
+    "passthru": false,
+    "label": "Limpar dashboard",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "",
+    "topicType": "str",
+    "x": 140,
+    "y": 300,
+    "wires": [
+      [
+        "pd_reset"
+      ]
+    ]
+  },
+  {
+    "id": "pd_reset",
+    "type": "function",
+    "z": "piiguard_dash_tab",
+    "name": "limpar contadores",
+    "func": "flow.set('porEmpresa', {}); flow.set('porGravidade', {}); flow.set('ultimos', []);\nreturn [{payload: []}, {payload: []}, {payload: []}, {payload: 0}];",
+    "outputs": 4,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 360,
+    "y": 300,
+    "wires": [
+      [
+        "pd_chart_emp"
+      ],
+      [
+        "pd_chart_grav"
+      ],
+      [
+        "pd_tabela"
+      ],
+      [
+        "pd_total"
+      ]
+    ]
+  }
+]

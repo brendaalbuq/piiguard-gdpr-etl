@@ -1,11 +1,11 @@
 # Passwords e variáveis locais do Pentaho (NUNCA publicar)
 kettle.properties
 .kettle/
-# Saídas e logs gerados pelos Jobs (geram-se de novo ao correr)
-data/output/*
-!data/output/teste.csv
-logs/*.log
+# Logs do Spoon/Kitchen
+*.log
 # Lixo do sistema
 __pycache__/
 Thumbs.db
 .DS_Store
+# Ficheiros temporários do Word/Excel
+~$*

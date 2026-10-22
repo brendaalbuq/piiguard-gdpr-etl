@@ -1,283 +1,206 @@
 ficheiro;registo;campo;estrago;valor_injetado;resultado_esperado
-clientes_clinica_sorriso.csv;A0001;nome;nome em minúsculas;pedro fernandes almeida;normalizar para Pedro Fernandes Almeida
-clientes_clinica_sorriso.csv;A0001;codigo_postal;código postal só com 4 dígitos;4760;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0001;data_nascimento;data dd.mm.aaaa;18.03.1959;normalizar para 1959-03-18
-clientes_clinica_sorriso.csv;A0001;observacoes;PII escondida: morada em campo livre;Mora na Avenida Central, 65, perto da farmácia;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0003;nif;NIF com prefixo PT;PT240029780;normalizar para 240029780
-clientes_clinica_sorriso.csv;A0003;email;email em maiúsculas;MIGUEL.TEIXEIRA56@HOTMAIL.COM;normalizar para miguel.teixeira56@hotmail.com
+clientes_clinica_sorriso.csv;A0001;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 44729405576 05;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0003;email;email sem .pt/.com;sofia@outlook;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0003;data_nascimento;data dd.mm.aaaa;07.08.1977;normalizar para 1977-08-07
 clientes_clinica_sorriso.csv;A0004;email;email com espaço no meio;hugo alves48@gmail.com;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0005;email;email com espaço no meio;rui pinto38@gmail.com;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0006;nif;NIF com letra O em vez de 0;35793O866;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0006;telefone;telefone com 8 dígitos;91320807;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0007;nif;NIF com letra O em vez de 0;24725O776;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0007;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 98319489394 05;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0008;codigo_postal;código postal sem hífen;4760262;normalizar para 4760-262
-clientes_clinica_sorriso.csv;A0008;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 95579906593 05;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0009;email;email com espaço no meio;diogo lopes65@sapo.pt;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0005;codigo_postal;código postal com 6 dígitos;476090;quarentena CP_INVALIDO
+clientes_clinica_sorriso.csv;A0006;email;email com espaço no meio;andre pinto76@hotmail.com;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0006;observacoes;PII escondida: morada em campo livre;Mora na Rua Dom Pedro V, 124, perto da farmácia;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0007;nome;nome em maiúsculas;TIAGO JESUS MARQUES;normalizar para Tiago Jesus Marques
+clientes_clinica_sorriso.csv;A0008;nome;nome em maiúsculas;BEATRIZ PINTO SOUSA;normalizar para Beatriz Pinto Sousa
+clientes_clinica_sorriso.csv;A0008;data_nascimento;data d-m-aa;20-1-74;normalizar para 1974-01-20
+clientes_clinica_sorriso.csv;A0008;email;email vazio;;aceitar com email nulo (campo opcional)
+clientes_clinica_sorriso.csv;A0008;observacoes;PII escondida: morada em campo livre;Mora na Largo do Paço, 66, perto da farmácia;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0009;email;email com espaço no meio;beatriz marques65@sapo.pt;quarentena EMAIL_INVALIDO
 clientes_clinica_sorriso.csv;A0009;telefone;telefone +351 com espaços;+351 931 465 908;normalizar para +351931465908
-clientes_clinica_sorriso.csv;A0009;codigo_postal;código postal só com 4 dígitos;4830;quarentena CP_INVALIDO
 clientes_clinica_sorriso.csv;A0010;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_clinica_sorriso.csv;A0011;telefone;telefone com 00351;00351933845355;normalizar para +351933845355
-clientes_clinica_sorriso.csv;A0011;data_nascimento;data dd/mm/aaaa;26/06/1978;normalizar para 1978-06-26
-clientes_clinica_sorriso.csv;A0012;nome;nome em maiúsculas;JOANA CORREIA LOPES;normalizar para Joana Correia Lopes
-clientes_clinica_sorriso.csv;A0012;nif;NIF com prefixo PT;PT284210838;normalizar para 284210838
-clientes_clinica_sorriso.csv;A0012;email;email com espaço no meio;joana lopes11@sapo.pt;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0012;codigo_postal;código postal só com 4 dígitos;4900;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0012;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0013;nif;NIF com 8 dígitos;21543829;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0013;email;email com espaço no meio;carla oliveira66@gmail.com;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0013;telefone;telefone com hífens;922-157-116;normalizar para +351922157116
-clientes_clinica_sorriso.csv;A0013;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 215438299;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0014;nome;nome em maiúsculas;VASCO MENDES MOREIRA;normalizar para Vasco Mendes Moreira
-clientes_clinica_sorriso.csv;A0014;nif;NIF com letra O em vez de 0;17355O965;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0014;telefone;telefone com 00351;00351922792645;normalizar para +351922792645
-clientes_clinica_sorriso.csv;A0014;data_nascimento;data dd.mm.aaaa;31.03.1994;normalizar para 1994-03-31
-clientes_clinica_sorriso.csv;A0015;codigo_postal;código postal com espaço;4800 592;normalizar para 4800-592
-clientes_clinica_sorriso.csv;A0016;nif;NIF com espaços;183 801 253;normalizar para 183801253
-clientes_clinica_sorriso.csv;A0016;email;email com (at);ana.rodrigues36(at)sapo.pt;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0016;telefone;telefone com espaços;927 392 419;normalizar para +351927392419
-clientes_clinica_sorriso.csv;A0017;nome;nome em maiúsculas;BRUNO FERNANDES FERNANDES;normalizar para Bruno Fernandes Fernandes
-clientes_clinica_sorriso.csv;A0018;telefone;telefone com 8 dígitos;96193073;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0019;nome;nome em maiúsculas;MARTA RIBEIRO CARVALHO;normalizar para Marta Ribeiro Carvalho
-clientes_clinica_sorriso.csv;A0020;nome;nome em maiúsculas;RITA MOREIRA MENDES;normalizar para Rita Moreira Mendes
-clientes_clinica_sorriso.csv;A0020;nif;NIF com pontos;200.159.453;normalizar para 200159453
-clientes_clinica_sorriso.csv;A0020;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0021;nome;nome em minúsculas;filipa costa pereira;normalizar para Filipa Costa Pereira
-clientes_clinica_sorriso.csv;A0022;nif;NIF com espaços;240 190 181;normalizar para 240190181
-clientes_clinica_sorriso.csv;A0022;telefone;telefone com hífens;969-169-797;normalizar para +351969169797
-clientes_clinica_sorriso.csv;A0022;codigo_postal;código postal sem hífen;4800553;normalizar para 4800-553
-clientes_clinica_sorriso.csv;A0023;telefone;telefone com 8 dígitos;91739273;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0023;codigo_postal;código postal com 6 dígitos;475060;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0024;nome;nome em maiúsculas;SOFIA NUNES LOPES;normalizar para Sofia Nunes Lopes
-clientes_clinica_sorriso.csv;A0024;telefone;telefone com 00351;00351927611660;normalizar para +351927611660
-clientes_clinica_sorriso.csv;A0024;data_nascimento;data dd/mm/aaaa;24/01/2002;normalizar para 2002-01-24
-clientes_clinica_sorriso.csv;A0025;email;email sem .pt/.com;nuno@outlook;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0025;telefone;telefone com (+351);(+351)939074182;normalizar para +351939074182
+clientes_clinica_sorriso.csv;A0011;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0012;telefone;telefone com (+351);(+351)926584409;normalizar para +351926584409
+clientes_clinica_sorriso.csv;A0012;email;email vazio;;aceitar com email nulo (campo opcional)
+clientes_clinica_sorriso.csv;A0013;nome;nome em minúsculas;hugo gonçalves nunes;normalizar para Hugo Gonçalves Nunes
+clientes_clinica_sorriso.csv;A0015;nome;nome em minúsculas;rita mendes pinto;normalizar para Rita Mendes Pinto
+clientes_clinica_sorriso.csv;A0016;nome;nome em minúsculas;leonor ribeiro almeida;normalizar para Leonor Ribeiro Almeida
+clientes_clinica_sorriso.csv;A0019;email;email com espaço no meio;tiago jesus50@gmail.com;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0020;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 148527221;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0021;codigo_postal;código postal com espaço;4750 756;normalizar para 4750-756
+clientes_clinica_sorriso.csv;A0023;nome;nome em minúsculas;mariana almeida pereira;normalizar para Mariana Almeida Pereira
+clientes_clinica_sorriso.csv;A0023;nif;NIF com espaços;301 879 168;normalizar para 301879168
+clientes_clinica_sorriso.csv;A0023;telefone;telefone com espaços;969 780 252;normalizar para +351969780252
+clientes_clinica_sorriso.csv;A0024;email;email com (at);miguel.martins52(at)hotmail.com;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0025;codigo_postal;código postal com espaço;4700 250;normalizar para 4700-250
 clientes_clinica_sorriso.csv;A0025;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_clinica_sorriso.csv;A0026;nif;NIF com espaços;356 427 102;normalizar para 356427102
-clientes_clinica_sorriso.csv;A0026;telefone;telefone com 8 dígitos;93129837;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0027;codigo_postal;código postal com espaço;4760 680;normalizar para 4760-680
-clientes_clinica_sorriso.csv;A0027;data_nascimento;data dd.mm.aaaa;20.11.1951;normalizar para 1951-11-20
-clientes_clinica_sorriso.csv;A0028;nome;nome com espaços a mais;  Rita   Carvalho Sousa ;normalizar para Rita Carvalho Sousa
-clientes_clinica_sorriso.csv;A0028;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_clinica_sorriso.csv;A0028;email;email com (at);rita.sousa57(at)gmail.com;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0028;telefone;telefone com 8 dígitos;96447967;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0028;data_nascimento;data dd/mm/aaaa;12/03/1984;normalizar para 1984-03-12
-clientes_clinica_sorriso.csv;A0028;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0030;nif;NIF com letra O em vez de 0;36695O893;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0030;email;email em maiúsculas;NUNO.NUNES2@OUTLOOK.PT;normalizar para nuno.nunes2@outlook.pt
-clientes_clinica_sorriso.csv;A0030;data_nascimento;data impossível (31 de fevereiro);31/02/1997;quarentena DATA_INVALIDA
-clientes_clinica_sorriso.csv;A0031;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 115276114;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0032;nif;NIF com 8 dígitos;21520299;quarentena NIF_INVALIDO
+clientes_clinica_sorriso.csv;A0026;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
+clientes_clinica_sorriso.csv;A0026;telefone;telefone com 8 dígitos;91214304;quarentena TELEFONE_INVALIDO
+clientes_clinica_sorriso.csv;A0026;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0027;codigo_postal;código postal sem hífen;4760842;normalizar para 4760-842
+clientes_clinica_sorriso.csv;A0028;email;email com espaço no meio;hugo pinto11@gmail.com;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0028;data_nascimento;data dd/mm/aaaa;18/12/1995;normalizar para 1995-12-18
+clientes_clinica_sorriso.csv;A0029;telefone;telefone com espaços;961 647 744;normalizar para +351961647744
+clientes_clinica_sorriso.csv;A0029;codigo_postal;código postal com espaço;4700 456;normalizar para 4700-456
+clientes_clinica_sorriso.csv;A0030;nome;nome em maiúsculas;RUI CORREIA MOREIRA;normalizar para Rui Correia Moreira
+clientes_clinica_sorriso.csv;A0031;observacoes;PII escondida: telefone em campo livre;Contactar pelo 936830686 depois das 18h;detetar com regex e mascarar
 clientes_clinica_sorriso.csv;A0032;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0033;nome;nome em minúsculas;filipa nunes mendes;normalizar para Filipa Nunes Mendes
-clientes_clinica_sorriso.csv;A0033;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0034;telefone;telefone +351 com espaços;+351 911 320 598;normalizar para +351911320598
-clientes_clinica_sorriso.csv;A0034;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 246440333;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0035;telefone;telefone com 00351;00351967720412;normalizar para +351967720412
-clientes_clinica_sorriso.csv;A0035;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_clinica_sorriso.csv;A0035;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0036;nome;nome em maiúsculas;RUI RODRIGUES FERNANDES;normalizar para Rui Rodrigues Fernandes
-clientes_clinica_sorriso.csv;A0037;nome;nome com acentos corrompidos (mojibake);JoÃ£o Ribeiro GonÃ§alves;corrigir para João Ribeiro Gonçalves
-clientes_clinica_sorriso.csv;A0037;nif;NIF com pontos;224.761.340;normalizar para 224761340
-clientes_clinica_sorriso.csv;A0037;codigo_postal;código postal só com 4 dígitos;4900;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0037;data_nascimento;data dd.mm.aaaa;22.04.1970;normalizar para 1970-04-22
-clientes_clinica_sorriso.csv;A0038;email;email com (at);mariana.moreira29(at)gmail.com;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0038;codigo_postal;código postal sem hífen;4800880;normalizar para 4800-880
-clientes_clinica_sorriso.csv;A0039;codigo_postal;código postal com 6 dígitos;470018;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0041;telefone;telefone com (+351);(+351)923595349;normalizar para +351923595349
-clientes_clinica_sorriso.csv;A0042;email;email em maiúsculas;LEONOR.OLIVEIRA2@HOTMAIL.COM;normalizar para leonor.oliveira2@hotmail.com
-clientes_clinica_sorriso.csv;A0042;telefone;telefone com espaços;911 000 520;normalizar para +351911000520
-clientes_clinica_sorriso.csv;A0042;codigo_postal;código postal com espaço;4800 021;normalizar para 4800-021
-clientes_clinica_sorriso.csv;A0042;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_clinica_sorriso.csv;A0043;nif;NIF com pontos;261.146.351;normalizar para 261146351
-clientes_clinica_sorriso.csv;A0043;email;email em maiúsculas;JOAO.ALMEIDA89@GMAIL.COM;normalizar para joao.almeida89@gmail.com
-clientes_clinica_sorriso.csv;A0043;telefone;telefone com (+351);(+351)911020383;normalizar para +351911020383
-clientes_clinica_sorriso.csv;A0043;codigo_postal;código postal com 6 dígitos;476097;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0044;nome;nome com espaços a mais;  Vasco   Gonçalves Costa ;normalizar para Vasco Gonçalves Costa
-clientes_clinica_sorriso.csv;A0044;telefone;telefone +351 com espaços;+351 967 057 929;normalizar para +351967057929
-clientes_clinica_sorriso.csv;A0044;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0045;nif;NIF com espaços;350 663 513;normalizar para 350663513
-clientes_clinica_sorriso.csv;A0046;data_nascimento;data dd/mm/aaaa;03/08/1963;normalizar para 1963-08-03
-clientes_clinica_sorriso.csv;A0047;codigo_postal;código postal com espaço;4760 660;normalizar para 4760-660
-clientes_clinica_sorriso.csv;A0047;data_nascimento;data impossível (31 de fevereiro);31/02/1990;quarentena DATA_INVALIDA
-clientes_clinica_sorriso.csv;A0047;observacoes;PII escondida: telefone em campo livre;Contactar pelo 925269563 depois das 18h;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0048;nome;nome em maiúsculas;MARTA NUNES CORREIA;normalizar para Marta Nunes Correia
-clientes_clinica_sorriso.csv;A0048;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_clinica_sorriso.csv;A0048;email;email sem .pt/.com;marta@hotmail;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0048;telefone;telefone com 8 dígitos;91135100;quarentena TELEFONE_INVALIDO
-clientes_clinica_sorriso.csv;A0048;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 68015431610 05;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0049;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 152051147;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0050;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_clinica_sorriso.csv;A0050;telefone;telefone com 00351;00351966412974;normalizar para +351966412974
-clientes_clinica_sorriso.csv;A0050;data_nascimento;data dd.mm.aaaa;27.01.1951;normalizar para 1951-01-27
-clientes_clinica_sorriso.csv;A0051;nome;nome em minúsculas;nuno marques silva;normalizar para Nuno Marques Silva
-clientes_clinica_sorriso.csv;A0051;email;email com espaços à volta;  nuno.silva44@outlook.pt ;normalizar para nuno.silva44@outlook.pt
-clientes_clinica_sorriso.csv;A0051;codigo_postal;código postal com 6 dígitos;476041;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0052;email;email com espaço no meio;hugo moreira50@outlook.pt;quarentena EMAIL_INVALIDO
-clientes_clinica_sorriso.csv;A0052;codigo_postal;código postal sem hífen;4700594;normalizar para 4700-594
-clientes_clinica_sorriso.csv;A0053;nif;NIF com 8 dígitos;20169298;quarentena NIF_INVALIDO
-clientes_clinica_sorriso.csv;A0053;telefone;telefone com (+351);(+351)934278206;normalizar para +351934278206
-clientes_clinica_sorriso.csv;A0053;data_nascimento;data d-m-aa;15-9-95;normalizar para 1995-09-15
-clientes_clinica_sorriso.csv;A0054;nome;nome em maiúsculas;RITA CARVALHO COSTA;normalizar para Rita Carvalho Costa
-clientes_clinica_sorriso.csv;A0054;codigo_postal;código postal com espaço;4700 221;normalizar para 4700-221
-clientes_clinica_sorriso.csv;A0055;nome;nome em maiúsculas;PEDRO COSTA PINTO;normalizar para Pedro Costa Pinto
-clientes_clinica_sorriso.csv;A0055;nif;NIF com prefixo PT;PT329529200;normalizar para 329529200
-clientes_clinica_sorriso.csv;A0055;email;email em maiúsculas;PEDRO.PINTO48@GMAIL.COM;normalizar para pedro.pinto48@gmail.com
-clientes_clinica_sorriso.csv;A0055;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_clinica_sorriso.csv;A0056;email;email em maiúsculas;MIGUEL.CARVALHO5@OUTLOOK.PT;normalizar para miguel.carvalho5@outlook.pt
-clientes_clinica_sorriso.csv;A0057;nome;nome em maiúsculas;CARLA TEIXEIRA NUNES;normalizar para Carla Teixeira Nunes
-clientes_clinica_sorriso.csv;A0058;nome;nome em minúsculas;maria ribeiro teixeira;normalizar para Maria Ribeiro Teixeira
-clientes_clinica_sorriso.csv;A0058;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_clinica_sorriso.csv;A0058;telefone;telefone com hífens;969-795-168;normalizar para +351969795168
-clientes_clinica_sorriso.csv;A0059;nome;nome com acentos corrompidos (mojibake);Paulo GonÃ§alves Lopes;corrigir para Paulo Gonçalves Lopes
-clientes_clinica_sorriso.csv;A0059;codigo_postal;código postal só com 4 dígitos;4830;quarentena CP_INVALIDO
-clientes_clinica_sorriso.csv;A0060;telefone;telefone com (+351);(+351)918044186;normalizar para +351918044186
-clientes_clinica_sorriso.csv;A0060;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_clinica_sorriso.csv;A0029;(linha inteira);duplicado exato;A0029;marcar DUPLICADO (fica 1)
-clientes_clinica_sorriso.csv;A0035;(linha inteira);duplicado exato;A0035;marcar DUPLICADO (fica 1)
-clientes_clinica_sorriso.csv;A0008;(linha inteira);duplicado exato;A0008;marcar DUPLICADO (fica 1)
-clientes_clinica_sorriso.csv;A9000;(linha inteira);duplicado disfarçado do A0059;261 863 401;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
-clientes_ginasio_movimento.csv;B0001;email;email sem .pt/.com;joana@sapo;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0001;codigo_postal;código postal sem hífen;4700088;normalizar para 4700-088
-clientes_ginasio_movimento.csv;B0002;nome;nome com espaços a mais;  Carla   Correia Sousa ;normalizar para Carla Correia Sousa
-clientes_ginasio_movimento.csv;B0002;nif;NIF com letra O em vez de 0;16992O388;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0002;email;email com espaço no meio;carla sousa12@gmail.com;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0003;nif;NIF com letra O em vez de 0;14528O718;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0003;email;email com espaços à volta;  andre.sousa29@gmail.com ;normalizar para andre.sousa29@gmail.com
-clientes_ginasio_movimento.csv;B0004;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_ginasio_movimento.csv;B0005;email;email com (at);luis.goncalves23(at)outlook.pt;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0005;telefone;telefone com hífens;936-055-183;normalizar para +351936055183
-clientes_ginasio_movimento.csv;B0005;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0006;nif;NIF com prefixo PT;PT343059061;normalizar para 343059061
-clientes_ginasio_movimento.csv;B0006;email;email sem .pt/.com;goncalo@hotmail;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0006;telefone;telefone com hífens;919-227-553;normalizar para +351919227553
-clientes_ginasio_movimento.csv;B0006;codigo_postal;código postal só com 4 dígitos;4760;quarentena CP_INVALIDO
-clientes_ginasio_movimento.csv;B0007;email;email em maiúsculas;TERESA.MENDES70@GMAIL.COM;normalizar para teresa.mendes70@gmail.com
-clientes_ginasio_movimento.csv;B0008;nome;nome em minúsculas;marta pereira oliveira;normalizar para Marta Pereira Oliveira
-clientes_ginasio_movimento.csv;B0008;email;email com (at);marta.oliveira72(at)hotmail.com;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0008;telefone;telefone com 00351;00351918090862;normalizar para +351918090862
-clientes_ginasio_movimento.csv;B0008;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_ginasio_movimento.csv;B0008;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 275370739;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0009;telefone;telefone +351 com espaços;+351 938 938 329;normalizar para +351938938329
-clientes_ginasio_movimento.csv;B0010;codigo_postal;código postal com espaço;4740 195;normalizar para 4740-195
-clientes_ginasio_movimento.csv;B0011;email;email em maiúsculas;PEDRO.SOUSA28@HOTMAIL.COM;normalizar para pedro.sousa28@hotmail.com
-clientes_ginasio_movimento.csv;B0011;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 243663048;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0013;nif;NIF com prefixo PT;PT164891986;normalizar para 164891986
-clientes_ginasio_movimento.csv;B0013;codigo_postal;código postal com 6 dígitos;474029;quarentena CP_INVALIDO
-clientes_ginasio_movimento.csv;B0013;data_nascimento;data dd.mm.aaaa;01.04.2003;normalizar para 2003-04-01
-clientes_ginasio_movimento.csv;B0014;nif;NIF com prefixo PT;PT143974408;normalizar para 143974408
-clientes_ginasio_movimento.csv;B0014;email;email com espaço no meio;ana ribeiro45@sapo.pt;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0014;data_nascimento;data impossível (31 de fevereiro);31/02/1986;quarentena DATA_INVALIDA
-clientes_ginasio_movimento.csv;B0015;nif;NIF com prefixo PT;PT391622625;normalizar para 391622625
-clientes_ginasio_movimento.csv;B0016;codigo_postal;código postal com 6 dígitos;475041;quarentena CP_INVALIDO
-clientes_ginasio_movimento.csv;B0016;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 10352478753 05;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0017;nif;NIF com 8 dígitos;27488781;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0017;telefone;telefone com (+351);(+351)911081023;normalizar para +351911081023
-clientes_ginasio_movimento.csv;B0017;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0018;nif;NIF com pontos;260.012.122;normalizar para 260012122
-clientes_ginasio_movimento.csv;B0018;telefone;telefone +351 com espaços;+351 916 661 205;normalizar para +351916661205
-clientes_ginasio_movimento.csv;B0018;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_ginasio_movimento.csv;B0019;nome;nome em maiúsculas;RITA LOPES FERREIRA;normalizar para Rita Lopes Ferreira
-clientes_ginasio_movimento.csv;B0019;nif;NIF com letra O em vez de 0;29138O146;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0019;email;email sem .pt/.com;rita@hotmail;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0019;telefone;telefone +351 com espaços;+351 962 032 588;normalizar para +351962032588
-clientes_ginasio_movimento.csv;B0019;codigo_postal;código postal só com 4 dígitos;4750;quarentena CP_INVALIDO
-clientes_ginasio_movimento.csv;B0020;nif;NIF com espaços;110 835 794;normalizar para 110835794
-clientes_ginasio_movimento.csv;B0020;data_nascimento;data dd.mm.aaaa;29.07.1970;normalizar para 1970-07-29
-clientes_ginasio_movimento.csv;B0020;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0021;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_ginasio_movimento.csv;B0021;data_nascimento;data dd.mm.aaaa;30.03.1981;normalizar para 1981-03-30
-clientes_ginasio_movimento.csv;B0022;email;email em maiúsculas;CATARINA.OLIVEIRA99@SAPO.PT;normalizar para catarina.oliveira99@sapo.pt
-clientes_ginasio_movimento.csv;B0022;observacoes;PII escondida: telefone em campo livre;Contactar pelo 911919652 depois das 18h;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0023;nif;NIF com 8 dígitos;18753070;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0023;email;email sem .pt/.com;ines@gmail;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0024;telefone;telefone com hífens;918-186-953;normalizar para +351918186953
-clientes_ginasio_movimento.csv;B0025;nome;nome com espaços a mais;  Mariana   Lopes Moreira ;normalizar para Mariana Lopes Moreira
-clientes_ginasio_movimento.csv;B0025;nif;NIF com letra O em vez de 0;31794O439;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0025;email;email com espaços à volta;  mariana.moreira75@sapo.pt ;normalizar para mariana.moreira75@sapo.pt
-clientes_ginasio_movimento.csv;B0025;telefone;telefone com hífens;921-077-257;normalizar para +351921077257
-clientes_ginasio_movimento.csv;B0026;nome;nome com espaços a mais;  João   Alves Marques ;normalizar para João Alves Marques
-clientes_ginasio_movimento.csv;B0026;email;email com (at);joao.marques35(at)sapo.pt;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0026;data_nascimento;data impossível (31 de fevereiro);31/02/1967;quarentena DATA_INVALIDA
-clientes_ginasio_movimento.csv;B0027;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_ginasio_movimento.csv;B0028;nif;NIF com espaços;227 556 038;normalizar para 227556038
-clientes_ginasio_movimento.csv;B0028;telefone;telefone com (+351);(+351)939602372;normalizar para +351939602372
-clientes_ginasio_movimento.csv;B0028;codigo_postal;código postal sem hífen;4740747;normalizar para 4740-747
-clientes_ginasio_movimento.csv;B0029;telefone;telefone com 00351;00351922269310;normalizar para +351922269310
-clientes_ginasio_movimento.csv;B0029;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0030;nif;NIF com letra O em vez de 0;36205O483;quarentena NIF_INVALIDO
-clientes_ginasio_movimento.csv;B0031;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_ginasio_movimento.csv;B0031;data_nascimento;data dd/mm/aaaa;18/05/1982;normalizar para 1982-05-18
-clientes_ginasio_movimento.csv;B0032;nome;nome com espaços a mais;  Diogo   Alves Ferreira ;normalizar para Diogo Alves Ferreira
-clientes_ginasio_movimento.csv;B0032;nif;NIF com prefixo PT;PT324900759;normalizar para 324900759
-clientes_ginasio_movimento.csv;B0032;telefone;telefone com hífens;914-293-092;normalizar para +351914293092
-clientes_ginasio_movimento.csv;B0033;nif;NIF com prefixo PT;PT184531454;normalizar para 184531454
-clientes_ginasio_movimento.csv;B0033;email;email sem .pt/.com;catarina@hotmail;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0033;codigo_postal;código postal sem hífen;4740086;normalizar para 4740-086
-clientes_ginasio_movimento.csv;B0034;nome;nome com espaços a mais;  André   Carvalho Teixeira ;normalizar para André Carvalho Teixeira
-clientes_ginasio_movimento.csv;B0034;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 157897940;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0035;nome;nome em maiúsculas;JOÃO SILVA MENDES;normalizar para João Silva Mendes
-clientes_ginasio_movimento.csv;B0035;telefone;telefone com (+351);(+351)924813278;normalizar para +351924813278
-clientes_ginasio_movimento.csv;B0035;email;email vazio;;aceitar com email nulo (campo opcional)
-clientes_ginasio_movimento.csv;B0035;observacoes;PII escondida: morada em campo livre;Mora na Rua Dom Pedro V, 141, perto da farmácia;detetar com regex e mascarar
-clientes_ginasio_movimento.csv;B0036;nome;nome em maiúsculas;RUI ALMEIDA CORREIA;normalizar para Rui Almeida Correia
-clientes_ginasio_movimento.csv;B0037;nif;NIF com espaços;157 554 082;normalizar para 157554082
-clientes_ginasio_movimento.csv;B0037;telefone;telefone com espaços;919 507 392;normalizar para +351919507392
-clientes_ginasio_movimento.csv;B0037;codigo_postal;código postal só com 4 dígitos;4830;quarentena CP_INVALIDO
-clientes_ginasio_movimento.csv;B0038;email;email sem .pt/.com;paulo@gmail;quarentena EMAIL_INVALIDO
-clientes_ginasio_movimento.csv;B0038;codigo_postal;código postal sem hífen;4740542;normalizar para 4740-542
-clientes_ginasio_movimento.csv;B0039;nome;nome em minúsculas;tiago lopes costa;normalizar para Tiago Lopes Costa
-clientes_ginasio_movimento.csv;B0040;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
-clientes_ginasio_movimento.csv;B0040;email;email em maiúsculas;HUGO.MENDES95@HOTMAIL.COM;normalizar para hugo.mendes95@hotmail.com
-clientes_ginasio_movimento.csv;B0040;telefone;telefone com hífens;915-434-425;normalizar para +351915434425
-clientes_ginasio_movimento.csv;B0026;(linha inteira);duplicado exato;B0026;marcar DUPLICADO (fica 1)
-clientes_ginasio_movimento.csv;B0022;(linha inteira);duplicado exato;B0022;marcar DUPLICADO (fica 1)
-clientes_ginasio_movimento.csv;B0013;(linha inteira);duplicado exato;B0013;marcar DUPLICADO (fica 1)
-clientes_ginasio_movimento.csv;B9000;(linha inteira);duplicado disfarçado do B0013;164 891 986;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
-clientes_ginasio_movimento.csv;B9001;(linha inteira);duplicado disfarçado do B0034;157 897 940;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
-saft_techcavado_2026.xml;FT C2026/4;InvoiceDate;data fora do formato xs:date;02/04/2026;XSD falha -> ficheiro inteiro para quarentena XSD_INVALIDO
+clientes_clinica_sorriso.csv;A0033;nome;nome em maiúsculas;JOÃO MARQUES ALVES;normalizar para João Marques Alves
+clientes_clinica_sorriso.csv;A0034;nome;nome em maiúsculas;DIOGO PINTO SOUSA;normalizar para Diogo Pinto Sousa
+clientes_clinica_sorriso.csv;A0034;nif;NIF com pontos;208.948.740;normalizar para 208948740
+clientes_clinica_sorriso.csv;A0035;data_nascimento;data dd.mm.aaaa;11.08.2004;normalizar para 2004-08-11
+clientes_clinica_sorriso.csv;A0036;codigo_postal;código postal com 6 dígitos;475092;quarentena CP_INVALIDO
+clientes_clinica_sorriso.csv;A0036;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0037;nif;NIF com 8 dígitos;27204126;quarentena NIF_INVALIDO
+clientes_clinica_sorriso.csv;A0037;email;email com (at);tiago.gomes59(at)outlook.pt;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0037;data_nascimento;data dd/mm/aaaa;19/05/1954;normalizar para 1954-05-19
+clientes_clinica_sorriso.csv;A0038;nome;nome em maiúsculas;BEATRIZ FERNANDES JESUS;normalizar para Beatriz Fernandes Jesus
+clientes_clinica_sorriso.csv;A0039;nome;nome com acentos corrompidos (mojibake);JoÃ£o Ribeiro GonÃ§alves;corrigir para João Ribeiro Gonçalves
+clientes_clinica_sorriso.csv;A0039;nif;NIF com pontos;224.761.340;normalizar para 224761340
+clientes_clinica_sorriso.csv;A0039;codigo_postal;código postal só com 4 dígitos;4900;quarentena CP_INVALIDO
+clientes_clinica_sorriso.csv;A0040;email;email com (at);andre.lopes96(at)hotmail.com;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0040;codigo_postal;código postal sem hífen;4830550;normalizar para 4830-550
+clientes_clinica_sorriso.csv;A0041;nif;NIF com 8 dígitos;16334370;quarentena NIF_INVALIDO
+clientes_clinica_sorriso.csv;A0044;email;email em maiúsculas;MARIA.RIBEIRO51@GMAIL.COM;normalizar para maria.ribeiro51@gmail.com
+clientes_clinica_sorriso.csv;A0044;telefone;telefone com espaços;911 000 520;normalizar para +351911000520
+clientes_clinica_sorriso.csv;A0044;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0045;nome;nome em maiúsculas;HELENA LOPES CORREIA;normalizar para Helena Lopes Correia
+clientes_clinica_sorriso.csv;A0045;observacoes;PII escondida: NIF em campo livre;Pediu fatura com NIF 151102031;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0046;telefone;telefone com hífens;927-186-158;normalizar para +351927186158
+clientes_clinica_sorriso.csv;A0047;observacoes;PII escondida: morada em campo livre;Mora na Rua de São Vicente, 97, perto da farmácia;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0048;telefone;telefone com espaços;960 415 178;normalizar para +351960415178
+clientes_clinica_sorriso.csv;A0048;observacoes;PII escondida: morada em campo livre;Mora na Avenida da Liberdade, 60, perto da farmácia;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0049;telefone;telefone com 00351;00351969695343;normalizar para +351969695343
+clientes_clinica_sorriso.csv;A0050;nome;nome em minúsculas;joão lopes rodrigues;normalizar para João Lopes Rodrigues
+clientes_clinica_sorriso.csv;A0050;telefone;telefone com 8 dígitos;96585098;quarentena TELEFONE_INVALIDO
+clientes_clinica_sorriso.csv;A0050;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0051;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
+clientes_clinica_sorriso.csv;A0051;email;email sem .pt/.com;goncalo@hotmail;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0052;nif;NIF com letra O em vez de 0;32974O763;quarentena NIF_INVALIDO
+clientes_clinica_sorriso.csv;A0052;codigo_postal;código postal com 6 dígitos;475040;quarentena CP_INVALIDO
+clientes_clinica_sorriso.csv;A0052;data_nascimento;data impossível (31 de fevereiro);31/02/1990;quarentena DATA_INVALIDA
+clientes_clinica_sorriso.csv;A0052;observacoes;PII escondida: telefone em campo livre;Contactar pelo 960471393 depois das 18h;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0053;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
+clientes_clinica_sorriso.csv;A0053;telefone;telefone com espaços;922 660 756;normalizar para +351922660756
+clientes_clinica_sorriso.csv;A0053;data_nascimento;data d-m-aa;4-11-72;normalizar para 1972-11-04
+clientes_clinica_sorriso.csv;A0053;observacoes;PII escondida: telefone em campo livre;Contactar pelo 922660756 depois das 18h;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0054;email;email com (at);pedro.silva77(at)outlook.pt;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0055;nif;NIF com prefixo PT;PT123167779;normalizar para 123167779
+clientes_clinica_sorriso.csv;A0055;telefone;telefone com espaços;921 415 344;normalizar para +351921415344
+clientes_clinica_sorriso.csv;A0055;observacoes;PII escondida: morada em campo livre;Mora na Travessa do Carmo, 169, perto da farmácia;detetar com regex e mascarar
+clientes_clinica_sorriso.csv;A0056;nome;nome com espaços a mais;  Beatriz   Nunes Pereira ;normalizar para Beatriz Nunes Pereira
+clientes_clinica_sorriso.csv;A0056;email;email vazio;;aceitar com email nulo (campo opcional)
+clientes_clinica_sorriso.csv;A0057;nome;nome com espaços a mais;  Sofia   Fernandes Silva ;normalizar para Sofia Fernandes Silva
+clientes_clinica_sorriso.csv;A0057;nif;NIF com pontos;346.096.588;normalizar para 346096588
+clientes_clinica_sorriso.csv;A0057;email;email sem .pt/.com;sofia@sapo;quarentena EMAIL_INVALIDO
+clientes_clinica_sorriso.csv;A0058;nif;NIF com espaços;101 019 548;normalizar para 101019548
+clientes_clinica_sorriso.csv;A0058;email;email com espaços à volta;  beatriz.almeida43@outlook.pt ;normalizar para beatriz.almeida43@outlook.pt
+clientes_clinica_sorriso.csv;A0042;(linha inteira);duplicado exato;A0042;marcar DUPLICADO (fica 1)
+clientes_clinica_sorriso.csv;A0020;(linha inteira);duplicado exato;A0020;marcar DUPLICADO (fica 1)
+clientes_clinica_sorriso.csv;A0043;(linha inteira);duplicado exato;A0043;marcar DUPLICADO (fica 1)
+clientes_clinica_sorriso.csv;A9000;(linha inteira);duplicado disfarçado do A0021;152 866 752;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
+clientes_clinica_sorriso.csv;A9001;(linha inteira);duplicado disfarçado do A0023;301 879 168;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
+clientes_ginasio_movimento.csv;B0001;observacoes;PII escondida: IBAN em campo livre;Pagamento por transferência IBAN PT50 0035 0651 78557566055 05;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0002;data_nascimento;data dd/mm/aaaa;18/02/1967;normalizar para 1967-02-18
+clientes_ginasio_movimento.csv;B0003;data_nascimento;data impossível (31 de fevereiro);31/02/1990;quarentena DATA_INVALIDA
+clientes_ginasio_movimento.csv;B0004;email;email com espaço no meio;pedro jesus16@sapo.pt;quarentena EMAIL_INVALIDO
+clientes_ginasio_movimento.csv;B0004;data_nascimento;data d-m-aa;1-9-78;normalizar para 1978-09-01
+clientes_ginasio_movimento.csv;B0005;data_nascimento;data dd.mm.aaaa;20.07.1953;normalizar para 1953-07-20
+clientes_ginasio_movimento.csv;B0006;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
+clientes_ginasio_movimento.csv;B0007;telefone;telefone com espaços;922 348 883;normalizar para +351922348883
+clientes_ginasio_movimento.csv;B0009;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0010;nome;nome com espaços a mais;  Beatriz   Silva Almeida ;normalizar para Beatriz Silva Almeida
+clientes_ginasio_movimento.csv;B0010;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0011;nome;nome em maiúsculas;NUNO RIBEIRO MOREIRA;normalizar para Nuno Ribeiro Moreira
+clientes_ginasio_movimento.csv;B0011;nif;NIF com 8 dígitos;39383299;quarentena NIF_INVALIDO
+clientes_ginasio_movimento.csv;B0012;observacoes;PII escondida: morada em campo livre;Mora na Rua dos Chãos, 64, perto da farmácia;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0013;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0014;telefone;telefone com hífens;963-676-669;normalizar para +351963676669
+clientes_ginasio_movimento.csv;B0015;data_nascimento;data d-m-aa;27-3-92;normalizar para 1992-03-27
+clientes_ginasio_movimento.csv;B0016;nif;NIF com pontos;176.386.530;normalizar para 176386530
+clientes_ginasio_movimento.csv;B0016;telefone;telefone com espaços;931 904 708;normalizar para +351931904708
+clientes_ginasio_movimento.csv;B0016;observacoes;PII escondida: telefone em campo livre;Contactar pelo 931904708 depois das 18h;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0017;nome;nome em maiúsculas;HELENA ALMEIDA MENDES;normalizar para Helena Almeida Mendes
+clientes_ginasio_movimento.csv;B0017;telefone;telefone +351 com espaços;+351 930 435 197;normalizar para +351930435197
+clientes_ginasio_movimento.csv;B0020;nome;nome em minúsculas;rui rodrigues ferreira;normalizar para Rui Rodrigues Ferreira
+clientes_ginasio_movimento.csv;B0021;email;email com espaços à volta;  ana.moreira33@outlook.pt ;normalizar para ana.moreira33@outlook.pt
+clientes_ginasio_movimento.csv;B0022;nome;nome em maiúsculas;RUI TEIXEIRA OLIVEIRA;normalizar para Rui Teixeira Oliveira
+clientes_ginasio_movimento.csv;B0022;codigo_postal;código postal com espaço;4740 125;normalizar para 4740-125
+clientes_ginasio_movimento.csv;B0023;telefone;telefone com (+351);(+351)911687285;normalizar para +351911687285
+clientes_ginasio_movimento.csv;B0023;data_nascimento;data d-m-aa;1-9-85;normalizar para 1985-09-01
+clientes_ginasio_movimento.csv;B0024;nif;NIF vazio;;quarentena CAMPO_OBRIGATORIO_NULO
+clientes_ginasio_movimento.csv;B0024;data_nascimento;data dd.mm.aaaa;16.06.1975;normalizar para 1975-06-16
+clientes_ginasio_movimento.csv;B0025;telefone;telefone com 00351;00351911919652;normalizar para +351911919652
+clientes_ginasio_movimento.csv;B0025;observacoes;PII escondida: telefone em campo livre;Contactar pelo 911919652 depois das 18h;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0026;nif;NIF com 8 dígitos;18753070;quarentena NIF_INVALIDO
+clientes_ginasio_movimento.csv;B0026;email;email sem .pt/.com;ines@gmail;quarentena EMAIL_INVALIDO
+clientes_ginasio_movimento.csv;B0027;data_nascimento;data d-m-aa;12-9-62;normalizar para 1962-09-12
+clientes_ginasio_movimento.csv;B0028;nome;nome com espaços a mais;  Marta   Teixeira Gonçalves ;normalizar para Marta Teixeira Gonçalves
+clientes_ginasio_movimento.csv;B0028;nif;NIF com letra O em vez de 0;31794O439;quarentena NIF_INVALIDO
+clientes_ginasio_movimento.csv;B0028;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0029;nome;nome em maiúsculas;PEDRO SOUSA MENDES;normalizar para Pedro Sousa Mendes
+clientes_ginasio_movimento.csv;B0030;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Toma anticoagulantes, ver ficha clínica;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0031;nome;nome em minúsculas;leonor moreira rodrigues;normalizar para Leonor Moreira Rodrigues
+clientes_ginasio_movimento.csv;B0032;nif;NIF com 8 dígitos;32269310;quarentena NIF_INVALIDO
+clientes_ginasio_movimento.csv;B0032;telefone;telefone com hífens;931-179-027;normalizar para +351931179027
+clientes_ginasio_movimento.csv;B0032;data_nascimento;data dd.mm.aaaa;07.11.1979;normalizar para 1979-11-07
+clientes_ginasio_movimento.csv;B0032;observacoes;PII escondida: morada em campo livre;Mora na Rua da Boavista, 236, perto da farmácia;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0033;email;email com (at);vasco.goncalves76(at)sapo.pt;quarentena EMAIL_INVALIDO
+clientes_ginasio_movimento.csv;B0033;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0034;nome;nome em maiúsculas;HUGO SOUSA PEREIRA;normalizar para Hugo Sousa Pereira
+clientes_ginasio_movimento.csv;B0034;telefone;telefone com (+351);(+351)912064197;normalizar para +351912064197
+clientes_ginasio_movimento.csv;B0034;observacoes;PII escondida: telefone em campo livre;Contactar pelo 912064197 depois das 18h;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0035;nome;nome em minúsculas;andré nunes sousa;normalizar para André Nunes Sousa
+clientes_ginasio_movimento.csv;B0035;email;email com espaços à volta;  andre.sousa50@gmail.com ;normalizar para andre.sousa50@gmail.com
+clientes_ginasio_movimento.csv;B0035;telefone;telefone +351 com espaços;+351 921 845 314;normalizar para +351921845314
+clientes_ginasio_movimento.csv;B0035;observacoes;PII escondida: DADO DE SAÚDE em campo livre (RGPD art. 9.º);Alergia à penicilina - avisar médico;detetar com regex e mascarar
+clientes_ginasio_movimento.csv;B0037;data_nascimento;data dd.mm.aaaa;07.06.1970;normalizar para 1970-06-07
+clientes_ginasio_movimento.csv;B0038;nome;nome com espaços a mais;  Pedro   Rodrigues Oliveira ;normalizar para Pedro Rodrigues Oliveira
+clientes_ginasio_movimento.csv;B0039;data_nascimento;data impossível (31 de fevereiro);31/02/1994;quarentena DATA_INVALIDA
+clientes_ginasio_movimento.csv;B0040;data_nascimento;data dd.mm.aaaa;03.05.1980;normalizar para 1980-05-03
+clientes_ginasio_movimento.csv;B0040;email;email vazio;;aceitar com email nulo (campo opcional)
+clientes_ginasio_movimento.csv;B0017;(linha inteira);duplicado exato;B0017;marcar DUPLICADO (fica 1)
+clientes_ginasio_movimento.csv;B0012;(linha inteira);duplicado exato;B0012;marcar DUPLICADO (fica 1)
+clientes_ginasio_movimento.csv;B0014;(linha inteira);duplicado exato;B0014;marcar DUPLICADO (fica 1)
+clientes_ginasio_movimento.csv;B9000;(linha inteira);duplicado disfarçado do B0001;102 848 521;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
+clientes_ginasio_movimento.csv;B9001;(linha inteira);duplicado disfarçado do B0014;120 266 270;"só aparece depois de normalizar o NIF; marcar DUPLICADO"
+saft_techcavado_2026.xml;FT C2026/4;InvoiceDate;data fora do formato xs:date;11/07/2026;XSD falha -> ficheiro inteiro para quarentena XSD_INVALIDO
 saft_techcavado_2026.xml;(ficheiro);CustomerTaxID;clientes sem correspondência no CRM;;lookup não encontra -> constatação CLIENTE_SEM_CRM
-tickets (MQTT);TK-0001;mensagem;PII no texto livre: EMAIL;Enviem a resposta para mariana.pereira48@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0002;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 121960137 / tel 930457656 / email paulo.oliveira27@hotmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0003;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 217 507 573 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0010;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 193, 4740-508 Esposende e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0011;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 308 958 780 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0012;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 166 975 796 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0016;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0017;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 21858091 8 ZZ8 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0019;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 71, 4740-742 Esposende e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0021;mensagem;PII no texto livre: TELEFONE;Por favor liguem-me para o 964-595-061, ninguém atende na loja.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0022;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 10443206 4 ZZ4 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0023;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0024;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 36928523 1 ZZ6 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0002;mensagem;PII no texto livre: TELEFONE;Por favor liguem-me para o 936-500-185, ninguém atende na loja.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0003;mensagem;PII no texto livre: EMAIL;Enviem a resposta para mariana.pereira48@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0004;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 121960137 / tel 930457656 / email paulo.oliveira27@hotmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0005;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 217 507 573 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0012;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 193, 4740-508 Esposende e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0013;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 308 958 780 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0014;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 166 975 796 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0018;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 16159699813 05.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0019;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 21858091 8 ZZ8 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0021;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 71, 4740-742 Esposende e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0023;mensagem;PII no texto livre: TELEFONE;Por favor liguem-me para o 964-595-061, ninguém atende na loja.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0024;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 10443206 4 ZZ4 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
 tickets (MQTT);TK-0025;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0026;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 330102575 / tel 939885287 / email vasco.sousa19@outlook.pt - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0027;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 392539594 / tel 967338661 / email teresa.rodrigues92@hotmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0028;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 22503270873 05.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0029;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 49575566598 05.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0030;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0032;mensagem;PII no texto livre: MORADA;Moro na Avenida da Liberdade, 38, 4900-963 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0033;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 83154623746 05.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0034;mensagem;PII no texto livre: MORADA;Moro na Rua do Souto, 78, 4900-494 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0035;mensagem;PII no texto livre: TELEFONE;Por favor liguem-me para o +351 928 525 849, ninguém atende na loja.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0037;mensagem;PII no texto livre: EMAIL;Enviem a resposta para leonor.pinto73@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0038;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 86, 4700-591 Braga e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0039;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 306205530 / tel 938538463 / email paulo.sousa11@gmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0040;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0041;mensagem;PII no texto livre: MORADA;Moro na Rua Nova de Santa Cruz, 103, 4700-231 Braga e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0042;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 23159172404 05.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0043;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0044;mensagem;PII no texto livre: MORADA;Moro na Travessa do Carmo, 94, 4900-638 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0045;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 24193591 7 ZZ7 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0047;mensagem;PII no texto livre: EMAIL;Enviem a resposta para nuno.lopes30@sapo.pt, obrigado.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0049;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0050;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 104 531 258 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0052;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 365 339 849 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0053;mensagem;PII no texto livre: EMAIL;Enviem a resposta para joao.pinto38@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0055;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 23104247 1 ZZ6 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0056;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 395573211 / tel 963544334 / email filipa.oliveira22@outlook.pt - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
-tickets (MQTT);TK-0059;mensagem;PII no texto livre: MORADA;Moro na Rua do Souto, 85, 4750-771 Barcelos e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0026;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 36928523 1 ZZ6 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0027;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0028;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 330102575 / tel 939885287 / email vasco.sousa19@outlook.pt - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0029;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 392539594 / tel 967338661 / email teresa.rodrigues92@hotmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0030;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 22503270873 05.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0031;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 49575566598 05.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0032;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0034;mensagem;PII no texto livre: MORADA;Moro na Avenida da Liberdade, 38, 4900-963 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0035;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 83154623746 05.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0036;mensagem;PII no texto livre: MORADA;Moro na Rua do Souto, 78, 4900-494 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0037;mensagem;PII no texto livre: TELEFONE;Por favor liguem-me para o +351 928 525 849, ninguém atende na loja.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0039;mensagem;PII no texto livre: EMAIL;Enviem a resposta para leonor.pinto73@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0040;mensagem;PII no texto livre: MORADA;Moro na Rua da Boavista, 86, 4700-591 Braga e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0041;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 306205530 / tel 938538463 / email paulo.sousa11@gmail.com - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0042;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0043;mensagem;PII no texto livre: MORADA;Moro na Rua Nova de Santa Cruz, 103, 4700-231 Braga e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0044;mensagem;PII no texto livre: IBAN;Quero o reembolso para o IBAN PT50 0035 0651 23159172404 05.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0045;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0046;mensagem;PII no texto livre: MORADA;Moro na Travessa do Carmo, 94, 4900-638 Viana do Castelo e a encomenda não chegou.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0047;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 24193591 7 ZZ7 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0049;mensagem;PII no texto livre: EMAIL;Enviem a resposta para nuno.lopes30@sapo.pt, obrigado.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0051;mensagem;PII no texto livre: SAUDE;Tenho diabetes tipo 2, posso fazer o tratamento na mesma?;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0052;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 104 531 258 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0054;mensagem;PII no texto livre: NIF;Bom dia, o meu NIF é 365 339 849 e a fatura veio sem ele.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0055;mensagem;PII no texto livre: EMAIL;Enviem a resposta para joao.pinto38@outlook.pt, obrigado.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0057;mensagem;PII no texto livre: CC;O meu cartão de cidadão é 23104247 1 ZZ6 e preciso de alterar os dados.;detetar com regex, mascarar e gerar constatação
+tickets (MQTT);TK-0058;mensagem;PII no texto livre: NIF+TELEFONE+EMAIL;NIF 395573211 / tel 963544334 / email filipa.oliveira22@outlook.pt - por favor atualizem a minha ficha.;detetar com regex, mascarar e gerar constatação
 tickets (MQTT);TK-0006;(evento);evento repetido;;ignorar repetido (idempotência)
 tickets (MQTT);TK-0018;(evento);evento repetido;;ignorar repetido (idempotência)
 tickets (MQTT);TK-9999;mensagem;evento sem mensagem nem assunto;;quarentena CAMPO_OBRIGATORIO_NULO

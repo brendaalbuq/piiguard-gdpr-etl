@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Resumo>
+<Linha><secao>1_lotes</secao> <grupo>C1</grupo> <item>Lote 1 - SUCESSO</item> <valor>entrada 110 = válidos 69 + quarentena 31 + duplicados 10</valor></Linha>
+<Linha><secao>1_lotes</secao> <grupo>C2</grupo> <item>Lote 2 - SUCESSO</item> <valor>entrada 2 = válidos 1 + quarentena 1 + duplicados 0</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Campo obrigatório vazio (CAMPO_OBRIGATORIO_NULO)</item> <valor>6</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Código postal não respeita 0000-000 (CP_INVALIDO)</item> <valor>3</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Data impossível ou em formato desconhecido (DATA_INVALIDA)</item> <valor>2</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Email não respeita o formato nome@dominio.ext (EMAIL_INVALIDO)</item> <valor>12</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>NIF não tem 9 dígitos depois de limpo (NIF_INVALIDO)</item> <valor>7</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Registo repetido (mesma empresa + mesmo NIF) (DUPLICADO)</item> <valor>10</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C1</grupo> <item>Telefone não tem 9 dígitos (com ou sem +351) (TELEFONE_INVALIDO)</item> <valor>1</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C2</grupo> <item>Ficheiro XML não valida contra o XSD (XSD_INVALIDO)</item> <valor>1</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C3</grupo> <item>Campo obrigatório vazio (CAMPO_OBRIGATORIO_NULO)</item> <valor>1</valor></Linha>
+<Linha><secao>2_quarentena</secao> <grupo>C3</grupo> <item>Evento MQTT já recebido anteriormente (EVENTO_REPETIDO)</item> <valor>2</valor></Linha>
+<Linha><secao>3_constatacoes</secao> <grupo>Clínica Dentária Sorriso do Minho, Lda</grupo> <item>CLIENTE_SEM_CRM - gravidade MEDIA</item> <valor>9</valor></Linha>
+<Linha><secao>4_faturas</secao> <grupo>Clínica Dentária Sorriso do Minho, Lda</grupo> <item>Faturas exportadas (anonimizadas)</item> <valor>30</valor></Linha>
+</Resumo>

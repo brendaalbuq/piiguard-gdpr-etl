@@ -1,65 +1,66 @@
 id_cliente;nome_completo;nif;email;telemovel;codigo_postal;data_nascimento;data_registo;observacoes
-A0003;Miguel Ribeiro Teixeira;PT240029780;MIGUEL.TEIXEIRA56@HOTMAIL.COM;965347787;4760-827;1992-12-18;05/07/2023;
-A0046;Ricardo Lopes Gomes;392082420;ricardo.gomes22@gmail.com;920426283;4900-967;03/08/1963;18/10/2024;Prefere marcações de manhã
-A0027;Maria Mendes Moreira;234999241;maria.moreira31@gmail.com;910527913;4760 680;20.11.1951;30/10/2021;
-A0040;Diogo Pinto Nunes;335813429;diogo.nunes99@sapo.pt;917233496;4830-477;1993-12-07;08/12/2021;Cliente frequente
-A0008;Catarina Jesus Moreira;221052186;catarina.moreira34@gmail.com;934914524;4760262;1961-11-24;20/02/2020;Pagamento por transferência IBAN PT50 0035 0651 95579906593 05
-A0054;RITA CARVALHO COSTA;144796724;rita.costa90@sapo.pt;932189903;4700 221;1975-09-15;11/01/2020;Veio por recomendação
-A0058;maria ribeiro teixeira;;maria.teixeira75@sapo.pt;969-795-168;4760-334;1955-04-21;06/03/2022;Prefere marcações de manhã
-A0023;Ricardo Fernandes Correia;373638566;ricardo.correia31@sapo.pt;91739273;475060;1977-07-18;12/04/2024;
-A0037;JoÃ£o Ribeiro GonÃ§alves;224.761.340;joao.goncalves61@gmail.com;914617544;4900;22.04.1970;04/02/2022;Prefere marcações de manhã
-A0031;Joana Teixeira Pereira;115276114;joana.pereira40@gmail.com;928759211;4740-354;1971-01-31;08/08/2022;Pediu fatura com NIF 115276114
-A0021;filipa costa pereira;182445607;filipa.pereira25@outlook.pt;968745721;4750-812;1968-04-06;11/11/2023;Enviar newsletter
-A0053;Bruno Silva Silva;20169298;bruno.silva22@gmail.com;(+351)934278206;4750-751;15-9-95;07/06/2020;Cliente frequente
-A0014;VASCO MENDES MOREIRA;17355O965;vasco.moreira41@hotmail.com;00351922792645;4900-855;31.03.1994;09/07/2023;Cliente frequente
-A0007;Marta Sousa Costa;24725O776;marta.costa60@outlook.pt;918841330;4800-976;1965-09-03;15/12/2021;Pagamento por transferência IBAN PT50 0035 0651 98319489394 05
-A0006;Catarina Carvalho Costa;35793O866;catarina.costa27@outlook.pt;91320807;4750-495;2003-01-17;29/10/2024;
-A0041;Carla Correia Ferreira;356114104;carla.ferreira66@outlook.pt;(+351)923595349;4900-689;1984-10-09;21/11/2024;
-A0042;Leonor Ribeiro Oliveira;219568081;;911 000 520;4800 021;1973-11-25;17/06/2023;
-A0052;Hugo Gomes Moreira;216480787;hugo moreira50@outlook.pt;920396220;4700594;1992-10-30;20/10/2022;Cliente frequente
-A0050;Marta Santos Sousa;;marta.sousa40@hotmail.com;00351966412974;4830-261;27.01.1951;12/01/2023;Cliente frequente
-A0015;Ana Ribeiro Correia;388365501;ana.correia13@outlook.pt;962048425;4800 592;1986-10-02;11/10/2022;
-A0020;RITA MOREIRA MENDES;200.159.453;rita.mendes19@gmail.com;912831663;4740-853;1963-11-28;22/08/2022;Alergia à penicilina - avisar médico
-A0016;Ana Nunes Rodrigues;183 801 253;ana.rodrigues36(at)sapo.pt;927 392 419;4900-427;1991-01-05;10/10/2024;Enviar newsletter
-A0004;Hugo Mendes Alves;162701071;hugo alves48@gmail.com;919331908;4700-979;1973-11-27;03/08/2024;Prefere marcações de manhã
-A0060;Vasco Jesus Martins;276388690;vasco.martins36@outlook.pt;(+351)918044186;4830-846;1952-07-15;07/07/2024;Alergia à penicilina - avisar médico
-A0038;Mariana Lopes Moreira;297760556;mariana.moreira29(at)gmail.com;928488568;4800880;1998-07-02;26/11/2025;
-A0013;Carla Ribeiro Oliveira;21543829;carla oliveira66@gmail.com;922-157-116;4750-268;1952-07-20;22/04/2020;Pediu fatura com NIF 215438299
-A0028;  Rita   Carvalho Sousa ;;rita.sousa57(at)gmail.com;96447967;4750-880;12/03/1984;21/01/2019;Alergia à penicilina - avisar médico
-A0039;Filipa Teixeira Gonçalves;134370104;filipa.goncalves32@outlook.pt;965262394;470018;1973-09-14;27/04/2020;Enviar newsletter
-A0057;CARLA TEIXEIRA NUNES;119544466;carla.nunes2@gmail.com;915157539;4830-647;1987-10-07;22/09/2019;Veio por recomendação
-A0047;Joana Pinto Moreira;217801331;joana.moreira39@gmail.com;925269563;4760 660;31/02/1990;14/02/2019;Contactar pelo 925269563 depois das 18h
-A0017;BRUNO FERNANDES FERNANDES;254072070;bruno.fernandes62@sapo.pt;934735486;4800-311;1978-07-07;20/10/2025;Prefere marcações de manhã
-A0044;  Vasco   Gonçalves Costa ;167081292;vasco.costa6@gmail.com;+351 967 057 929;4900-727;2003-01-27;29/09/2021;Toma anticoagulantes, ver ficha clínica
-A0051;nuno marques silva;233387927;  nuno.silva44@outlook.pt ;968771099;476041;1987-01-22;16/07/2019;Veio por recomendação
-A0034;Paulo Correia Sousa;246440333;paulo.sousa15@sapo.pt;+351 911 320 598;4760-467;1998-11-13;12/08/2019;Pediu fatura com NIF 246440333
-A0059;Paulo GonÃ§alves Lopes;261863401;paulo.lopes24@sapo.pt;936135750;4830;1962-05-10;05/09/2022;
-A0032;Hugo Costa Lopes;21520299;hugo.lopes92@hotmail.com;934613516;4830-897;1956-02-29;13/11/2021;Toma anticoagulantes, ver ficha clínica
-A0056;Miguel Gonçalves Carvalho;284500747;MIGUEL.CARVALHO5@OUTLOOK.PT;931481013;4900-821;1975-09-30;10/08/2023;Prefere marcações de manhã
-A0035;Luís Moreira Marques;282960171;;00351967720412;4750-440;1954-08-01;26/08/2023;Toma anticoagulantes, ver ficha clínica
-A0029;Paulo Marques Martins;226927679;paulo.martins5@hotmail.com;919409858;4750-305;1995-08-21;22/05/2022;Prefere marcações de manhã
-A0030;Nuno Gonçalves Nunes;36695O893;NUNO.NUNES2@OUTLOOK.PT;965013327;4740-632;31/02/1997;22/06/2021;Enviar newsletter
-A0024;SOFIA NUNES LOPES;319539180;sofia.lopes46@hotmail.com;00351927611660;4900-250;24/01/2002;18/04/2019;
-A0055;PEDRO COSTA PINTO;PT329529200;;964256579;4800-512;1993-11-09;07/01/2020;
-A0002;André Pereira Lopes;297880934;andre.lopes51@sapo.pt;920819672;4760-493;2003-11-05;04/07/2024;Enviar newsletter
-A0049;Beatriz Teixeira Silva;152051147;beatriz.silva1@hotmail.com;929418341;4750-581;1965-11-16;07/12/2022;Pediu fatura com NIF 152051147
-A0048;MARTA NUNES CORREIA;;marta@hotmail;91135100;4760-198;1985-03-22;29/09/2025;Pagamento por transferência IBAN PT50 0035 0651 68015431610 05
-A0043;João Sousa Almeida;261.146.351;JOAO.ALMEIDA89@GMAIL.COM;(+351)911020383;476097;1992-11-01;13/01/2024;
-A0009;Diogo Marques Lopes;245060456;diogo lopes65@sapo.pt;+351 931 465 908;4830;1960-09-18;13/03/2023;Cliente frequente
-A0022;Maria Marques Marques;240 190 181;maria.marques68@gmail.com;969-169-797;4800553;1998-12-29;22/11/2024;
-A0036;RUI RODRIGUES FERNANDES;313785228;rui.fernandes69@gmail.com;923841649;4800-662;1958-04-30;28/05/2022;Prefere marcações de manhã
-A0029;Paulo Marques Martins;226927679;paulo.martins5@hotmail.com;919409858;4750-305;1995-08-21;22/05/2022;Prefere marcações de manhã
-A0033;filipa nunes mendes;241930391;filipa.mendes46@sapo.pt;935156697;4760-623;1989-08-19;29/10/2020;Alergia à penicilina - avisar médico
-A0012;JOANA CORREIA LOPES;PT284210838;joana lopes11@sapo.pt;939066882;4900;1953-05-14;07/12/2020;Toma anticoagulantes, ver ficha clínica
-A0001;pedro fernandes almeida;387973095;pedro.almeida77@outlook.pt;911417075;4760;18.03.1959;03/07/2021;Mora na Avenida Central, 65, perto da farmácia
-A0010;Catarina Oliveira Gonçalves;;catarina.goncalves31@outlook.pt;964230048;4740-490;1984-06-17;25/03/2023;
-A0011;Carla Teixeira Almeida;337038260;carla.almeida85@gmail.com;00351933845355;4900-470;26/06/1978;19/08/2019;Veio por recomendação
-A0005;Rui Alves Pinto;222948663;rui pinto38@gmail.com;928360161;4750-052;2003-08-30;29/08/2024;Cliente frequente
-A9000;PAULO GONÃ§ALVES LOPES;261 863 401;paulo.lopes24@sapo.pt;936135750;4830;1962-05-10;05/09/2022;
-A0026;Rita Moreira Carvalho;356 427 102;rita.carvalho22@hotmail.com;93129837;4750-703;1965-05-24;28/08/2021;
-A0025;Nuno Correia Marques;141214309;;(+351)939074182;4900-560;1996-03-31;22/05/2019;
-A0008;Catarina Jesus Moreira;221052186;catarina.moreira34@gmail.com;934914524;4760262;1961-11-24;20/02/2020;Pagamento por transferência IBAN PT50 0035 0651 95579906593 05
-A0018;Maria Almeida Almeida;221824880;maria.almeida41@sapo.pt;96193073;4760-439;1979-03-02;26/06/2024;Enviar newsletter
-A0045;Vasco Silva Moreira;350 663 513;vasco.moreira41@sapo.pt;967682597;4740-200;1992-03-28;27/10/2022;Veio por recomendação
-A0035;Luís Moreira Marques;282960171;;00351967720412;4750-440;1954-08-01;26/08/2023;Toma anticoagulantes, ver ficha clínica
-A0019;MARTA RIBEIRO CARVALHO;322900441;marta.carvalho20@hotmail.com;922485272;4830-191;1998-05-14;13/02/2021;
+A0003;Sofia Ribeiro Gomes;263440028;sofia@outlook;968753477;4830-523;07.08.1977;23/02/2025;
+A0023;mariana almeida pereira;301 879 168;mariana.pereira5@gmail.com;969 780 252;4900-027;1974-10-09;30/04/2022;
+A0055;Paulo Marques Nunes;PT123167779;paulo.nunes50@sapo.pt;921 415 344;4740-452;1974-07-05;07/10/2023;Mora na Travessa do Carmo, 169, perto da farmácia
+A9001;MARIANA ALMEIDA PEREIRA;301 879 168;mariana.pereira5@gmail.com;969 780 252;4900-027;1974-10-09;30/04/2022;
+A0033;JOÃO MARQUES ALVES;214883612;joao.alves53@hotmail.com;932029944;4800-794;1958-11-04;12/07/2019;Veio por recomendação
+A0022;Ana Ribeiro Oliveira;207874573;ana.oliveira95@sapo.pt;921283576;4830-623;1974-02-09;22/03/2022;Prefere marcações de manhã
+A0050;joão lopes rodrigues;112433510;joao.rodrigues93@outlook.pt;96585098;4830-558;1993-06-20;18/10/2019;Alergia à penicilina - avisar médico
+A9000;HUGO MOREIRA LOPES;152 866 752;hugo.lopes29@outlook.pt;924789713;4750 756;1965-04-24;14/09/2021;Cliente frequente
+A0024;Miguel Alves Martins;356073920;miguel.martins52(at)hotmail.com;963197967;4800-542;1992-01-18;20/09/2021;Veio por recomendação
+A0039;JoÃ£o Ribeiro GonÃ§alves;224.761.340;joao.goncalves61@gmail.com;914617544;4900;1970-04-22;04/02/2022;
+A0016;leonor ribeiro almeida;162048424;leonor.almeida83@sapo.pt;939967750;4750-038;1988-01-29;13/12/2022;
+A0043;Rita Fernandes Correia;356114104;rita.correia68@outlook.pt;923595349;4900-689;1956-01-15;07/05/2023;Enviar newsletter
+A0049;Teresa Pereira Costa;170022382;teresa.costa45@outlook.pt;00351969695343;4700-129;1967-01-30;05/12/2024;Veio por recomendação
+A0043;Rita Fernandes Correia;356114104;rita.correia68@outlook.pt;923595349;4900-689;1956-01-15;07/05/2023;Enviar newsletter
+A0017;Luís Nunes Silva;192419684;luis.silva29@outlook.pt;921046028;4700-751;1963-12-25;13/09/2022;Veio por recomendação
+A0019;Tiago Nunes Jesus;330733680;tiago jesus50@gmail.com;928347285;4900-372;1997-05-15;02/11/2024;Veio por recomendação
+A0012;Helena Silva Ribeiro;268828113;;(+351)926584409;4750-678;2002-04-01;10/06/2022;Cliente frequente
+A0007;TIAGO JESUS MARQUES;287718840;tiago.marques60@hotmail.com;913301756;4740-558;1987-04-19;24/03/2022;Enviar newsletter
+A0051;Gonçalo Almeida Rodrigues;;goncalo@hotmail;922238637;4800-812;1960-05-28;13/05/2025;
+A0004;Hugo Mendes Alves;162701071;hugo alves48@gmail.com;919331908;4700-979;1973-11-27;03/08/2024;
+A0008;BEATRIZ PINTO SOUSA;216210526;;918549145;4760-165;20-1-74;26/03/2025;Mora na Largo do Paço, 66, perto da farmácia
+A0048;Marta Costa Almeida;160188989;marta.almeida88@sapo.pt;960 415 178;4750-055;1991-11-27;14/04/2019;Mora na Avenida da Liberdade, 60, perto da farmácia
+A0011;Carla Teixeira Almeida;337038260;carla.almeida85@gmail.com;933845355;4900-470;1978-06-26;19/08/2019;Alergia à penicilina - avisar médico
+A0053;Leonor Carvalho Gomes;;leonor.gomes52@sapo.pt;922 660 756;4800-515;4-11-72;18/03/2022;Contactar pelo 922660756 depois das 18h
+A0038;BEATRIZ FERNANDES JESUS;313785228;beatriz.jesus72@gmail.com;923841649;4700-662;1977-03-29;16/01/2025;Prefere marcações de manhã
+A0014;Pedro Ribeiro Almeida;111744326;pedro.almeida75@sapo.pt;936885576;4750-321;1982-03-07;11/02/2024;
+A0027;Maria Marques Moreira;338564276;maria.moreira31@hotmail.com;910512983;4760842;1966-01-05;03/12/2020;Enviar newsletter
+A0056;  Beatriz   Nunes Pereira ;150295294;;920742565;4750-507;2000-09-21;23/01/2022;Enviar newsletter
+A0009;Beatriz Carvalho Marques;245060456;beatriz marques65@sapo.pt;+351 931 465 908;4740-979;1960-09-18;13/03/2023;Enviar newsletter
+A0031;Miguel Mendes Santos;238849856;miguel.santos44@sapo.pt;936830686;4900-396;2003-07-12;05/10/2024;Contactar pelo 936830686 depois das 18h
+A0021;Hugo Moreira Lopes;152866752;hugo.lopes29@outlook.pt;924789713;4750 756;1965-04-24;14/09/2021;Cliente frequente
+A0058;Beatriz Marques Almeida;101 019 548;  beatriz.almeida43@outlook.pt ;934615157;4830-356;1956-06-06;30/10/2025;Prefere marcações de manhã
+A0047;Carla Jesus Ribeiro;216768250;carla.ribeiro51@hotmail.com;963481241;4800-466;1955-01-27;29/09/2023;Mora na Rua de São Vicente, 97, perto da farmácia
+A0028;Hugo Moreira Pinto;343163497;hugo pinto11@gmail.com;924800527;4800-604;18/12/1995;29/12/2022;
+A0046;Ana Fernandes Alves;198133707;ana.alves91@hotmail.com;927-186-158;4760-895;1965-07-18;22/07/2025;
+A0041;Marta Pereira Correia;16334370;marta.correia34@gmail.com;910875262;4830-834;1981-12-07;13/05/2020;Veio por recomendação
+A0054;Pedro Silva Silva;200282204;pedro.silva77(at)outlook.pt;960169298;4900-267;2001-01-09;21/10/2024;
+A0020;Bruno Pinto Santos;148527221;bruno.santos39@hotmail.com;912269780;4900-307;1953-02-05;22/02/2022;Pediu fatura com NIF 148527221
+A0001;Pedro Fernandes Almeida;387973095;pedro.almeida77@outlook.pt;911417075;4760-215;1959-03-18;03/07/2021;Pagamento por transferência IBAN PT50 0035 0651 44729405576 05
+A0035;Teresa Lopes Carvalho;267959656;teresa.carvalho87@gmail.com;915654705;4740-423;11.08.2004;22/03/2023;Veio por recomendação
+A0005;Luís Martins Alves;162294867;luis.alves89@sapo.pt;962836016;476090;1961-10-09;15/09/2025;
+A0037;Tiago Carvalho Gomes;27204126;tiago.gomes59(at)outlook.pt;924789235;4830-163;19/05/1954;08/10/2019;
+A0057;  Sofia   Fernandes Silva ;346.096.588;sofia@sapo;935007485;4900-118;1956-05-06;15/11/2019;Veio por recomendação
+A0026;Gonçalo Correia Ribeiro;;goncalo.ribeiro86@gmail.com;91214304;4700-661;1990-02-20;01/03/2025;Alergia à penicilina - avisar médico
+A0042;Beatriz Carvalho Ribeiro;253581346;beatriz.ribeiro99@outlook.pt;921723349;4830-416;2003-07-17;04/06/2025;Veio por recomendação
+A0034;DIOGO PINTO SOUSA;208.948.740;diogo.sousa24@outlook.pt;964397258;4750-316;2004-04-06;15/11/2024;Cliente frequente
+A0036;Filipa Jesus Silva;105987190;filipa.silva10@hotmail.com;914216311;475092;1969-08-01;25/08/2019;Alergia à penicilina - avisar médico
+A0044;Maria Nunes Ribeiro;161956807;MARIA.RIBEIRO51@GMAIL.COM;911 000 520;4750-021;1973-11-08;27/12/2021;Alergia à penicilina - avisar médico
+A0013;hugo gonçalves nunes;158220188;hugo.nunes93@gmail.com;915154382;4900-613;1998-03-18;30/11/2020;Cliente frequente
+A0025;Hugo Mendes Pinto;319539180;;927611660;4700 250;1981-09-17;02/10/2025;Enviar newsletter
+A0052;Bruno Oliveira Jesus;32974O763;bruno.jesus35@gmail.com;960471393;475040;31/02/1990;30/10/2023;Contactar pelo 960471393 depois das 18h
+A0029;Inês Lopes Jesus;207911355;ines.jesus38@hotmail.com;961 647 744;4700 456;1989-11-11;28/10/2025;Cliente frequente
+A0030;RUI CORREIA MOREIRA;195863984;rui.moreira30@outlook.pt;938864573;4800-179;1964-11-18;20/02/2020;Prefere marcações de manhã
+A0020;Bruno Pinto Santos;148527221;bruno.santos39@hotmail.com;912269780;4900-307;1953-02-05;22/02/2022;Pediu fatura com NIF 148527221
+A0032;Ana Ribeiro Ferreira;295816350;ana.ferreira51@gmail.com;930115276;4700-101;1960-06-28;09/06/2021;Toma anticoagulantes, ver ficha clínica
+A0002;Maria Gomes Pinto;284697885;maria.pinto55@outlook.pt;919320819;4760-439;1994-09-20;21/04/2020;Prefere marcações de manhã
+A0045;HELENA LOPES CORREIA;151102031;helena.correia40@outlook.pt;920040300;4740-316;1956-12-18;06/03/2020;Pediu fatura com NIF 151102031
+A0015;rita mendes pinto;154742848;rita.pinto35@sapo.pt;925281449;4830-469;1961-06-12;02/11/2023;Enviar newsletter
+A0018;Sofia Santos Teixeira;273548646;sofia.teixeira62@sapo.pt;929061884;4740-494;1961-12-14;31/03/2019;Veio por recomendação
+A0006;André Marques Pinto;295793180;andre pinto76@hotmail.com;960320807;4760-888;1965-04-26;22/09/2020;Mora na Rua Dom Pedro V, 124, perto da farmácia
+A0059;Gonçalo Costa Teixeira;299531422;goncalo.teixeira83@gmail.com;927336979;4900-326;1955-12-12;03/03/2025;
+A0042;Beatriz Carvalho Ribeiro;253581346;beatriz.ribeiro99@outlook.pt;921723349;4830-416;2003-07-17;04/06/2025;Veio por recomendação
+A0040;André Almeida Lopes;159776058;andre.lopes96(at)hotmail.com;933848856;4830550;1979-12-30;23/01/2025;Cliente frequente
+A0060;Diogo Almeida Santos;225284561;diogo.santos47@sapo.pt;918634056;4830-083;1983-12-17;21/02/2023;
+A0010;Miguel Silva Lopes;;miguel.lopes54@outlook.pt;964230048;4760-490;1961-05-01;29/12/2022;
